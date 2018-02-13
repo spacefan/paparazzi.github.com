@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -194,6 +194,12 @@ $(document).ready(function(){initNavTree('globals_func_c.html','');});
 <li>calculateForwards()
 : <a class="el" href="orange__avoider_8c.html#a4e5570532574857283bde2f3437c5375">orange_avoider.c</a>
 </li>
+<li>calibrate_coeff()
+: <a class="el" href="dragspeed_8c.html#abeaf6ff173980a45c9b5e36a1834b8dc">dragspeed.c</a>
+</li>
+<li>calibrate_zero()
+: <a class="el" href="dragspeed_8c.html#a42b1bf05665b86938bd682bb1cb84ac7">dragspeed.c</a>
+</li>
 <li>calibration()
 : <a class="el" href="baro__MS5534A_8c.html#ab30c346cfd9bc2364001128c169e7898">baro_MS5534A.c</a>
 </li>
@@ -253,45 +259,6 @@ $(document).ready(function(){initNavTree('globals_func_c.html','');});
 <li>cdcacm_set_config()
 : <a class="el" href="stm32_2usb__ser__hw_8c.html#a6059acbec27d178fd89f46eac5538e7f">usb_ser_hw.c</a>
 </li>
-<li>Chacha20_chacha20()
-: <a class="el" href="Chacha20_8c.html#a13406d63e3f0b757baba26d0a360bef2">Chacha20.c</a>
-, <a class="el" href="Chacha20_8h.html#a13406d63e3f0b757baba26d0a360bef2">Chacha20.h</a>
-</li>
-<li>Chacha20_chacha20_key_block()
-: <a class="el" href="Chacha20_8c.html#a6f7c74c90a2dd98207c955a2cfcc8727">Chacha20.c</a>
-, <a class="el" href="Chacha20_8h.html#a6f7c74c90a2dd98207c955a2cfcc8727">Chacha20.h</a>
-</li>
-<li>Chacha20_op_String_Access()
-: <a class="el" href="Chacha20_8c.html#a85d67c1a5f65350443b159e4ad891566">Chacha20.c</a>
-, <a class="el" href="Chacha20_8h.html#a85d67c1a5f65350443b159e4ad891566">Chacha20.h</a>
-</li>
-<li>Chacha20_Vec128_chacha20()
-: <a class="el" href="Chacha20__Vec128_8c.html#a2952f54ff9390a0871046ba23eb38cdb">Chacha20_Vec128.c</a>
-, <a class="el" href="Chacha20__Vec128_8h.html#a2952f54ff9390a0871046ba23eb38cdb">Chacha20_Vec128.h</a>
-</li>
-<li>Chacha20_Vec128_op_String_Access()
-: <a class="el" href="Chacha20__Vec128_8c.html#afb258e52f233bbc5a31cfbd454211c57">Chacha20_Vec128.c</a>
-, <a class="el" href="Chacha20__Vec128_8h.html#afb258e52f233bbc5a31cfbd454211c57">Chacha20_Vec128.h</a>
-</li>
-<li>Chacha20Poly1305_aead_decrypt()
-: <a class="el" href="Chacha20Poly1305_8c.html#aa77ca68169f2d912bb5f404b419dd31b">Chacha20Poly1305.c</a>
-, <a class="el" href="Chacha20Poly1305_8h.html#aa77ca68169f2d912bb5f404b419dd31b">Chacha20Poly1305.h</a>
-</li>
-<li>Chacha20Poly1305_aead_encrypt()
-: <a class="el" href="Chacha20Poly1305_8c.html#a5f6c223120cea95989b1077d05bc8e5e">Chacha20Poly1305.c</a>
-, <a class="el" href="Chacha20Poly1305_8h.html#a5f6c223120cea95989b1077d05bc8e5e">Chacha20Poly1305.h</a>
-</li>
-<li>Chacha20Poly1305_aead_encrypt_()
-: <a class="el" href="Chacha20Poly1305_8c.html#a818de513187c7b3aea683e3f032935ed">Chacha20Poly1305.c</a>
-, <a class="el" href="Chacha20Poly1305_8h.html#a818de513187c7b3aea683e3f032935ed">Chacha20Poly1305.h</a>
-</li>
-<li>Chacha20Poly1305_aead_encrypt_poly()
-: <a class="el" href="Chacha20Poly1305_8c.html#abffab79f2a89a70d7b8d4022b28c5f8c">Chacha20Poly1305.c</a>
-</li>
-<li>Chacha20Poly1305_encode_length()
-: <a class="el" href="Chacha20Poly1305_8c.html#a5e3a3d2a6461835033b1b0d6ec743059">Chacha20Poly1305.c</a>
-, <a class="el" href="Chacha20Poly1305_8h.html#a5e3a3d2a6461835033b1b0d6ec743059">Chacha20Poly1305.h</a>
-</li>
 <li>changeRollYawPhase()
 : <a class="el" href="follow__me_8c.html#a807a6df05b0e6e375ccd7fa2dbc97fff">follow_me.c</a>
 </li>
@@ -321,6 +288,9 @@ $(document).ready(function(){initNavTree('globals_func_c.html','');});
 </li>
 <li>check_anchor_timeout()
 : <a class="el" href="dw1000__arduino_8c.html#a41e7eed3ca0467a93cf6c152af47b12d">dw1000_arduino.c</a>
+</li>
+<li>check_available_space()
+: <a class="el" href="gec__dl_8c.html#a37c9b07de8857965423dc29900c8e871">gec_dl.c</a>
 </li>
 <li>check_for_nan()
 : <a class="el" href="nps__fdm__jsbsim_8cpp.html#aa8d531348a8fbe30accc30952915a90d">nps_fdm_jsbsim.cpp</a>
@@ -432,8 +402,8 @@ $(document).ready(function(){initNavTree('globals_func_c.html','');});
 , <a class="el" href="opencv__image__functions_8h.html#a61a5033300dd8089655841501408f0aa">opencv_image_functions.h</a>
 </li>
 <li>coloryuv_opencv_to_yuv422()
-: <a class="el" href="opencv__image__functions_8h.html#a7e0cf5e8a9df91b72406f77394e7b2cb">opencv_image_functions.h</a>
-, <a class="el" href="opencv__image__functions_8cpp.html#a003b51cf5281baaf8d7ffdf532d2526a">opencv_image_functions.cpp</a>
+: <a class="el" href="opencv__image__functions_8cpp.html#a003b51cf5281baaf8d7ffdf532d2526a">opencv_image_functions.cpp</a>
+, <a class="el" href="opencv__image__functions_8h.html#a7e0cf5e8a9df91b72406f77394e7b2cb">opencv_image_functions.h</a>
 </li>
 <li>comm_send_ch()
 : <a class="el" href="mavlink_8h.html#ab753873a1ee10adedd0ce246311468f8">mavlink.h</a>
@@ -449,14 +419,14 @@ $(document).ready(function(){initNavTree('globals_func_c.html','');});
 : <a class="el" href="nav__drop_8h.html#ab242b1072e38faf0e67e1da07e00f9ab">nav_drop.h</a>
 </li>
 <li>compute_body_orientation_and_rates()
-: <a class="el" href="ahrs__float__cmpl__wrapper_8c.html#a2e90a05e5a4ca369d0308bb72e68171d">ahrs_float_cmpl_wrapper.c</a>
-, <a class="el" href="ahrs__float__invariant__wrapper_8c.html#a2e90a05e5a4ca369d0308bb72e68171d">ahrs_float_invariant_wrapper.c</a>
+: <a class="el" href="ahrs__float__invariant__wrapper_8c.html#a2e90a05e5a4ca369d0308bb72e68171d">ahrs_float_invariant_wrapper.c</a>
+, <a class="el" href="ahrs__float__cmpl__wrapper_8c.html#a2e90a05e5a4ca369d0308bb72e68171d">ahrs_float_cmpl_wrapper.c</a>
 </li>
 <li>compute_dist2_to_home()
-: <a class="el" href="navigation_8c.html#a4603515f41786b54ea9383a65a9f249e">navigation.c</a>
+: <a class="el" href="common__nav_8h.html#a4603515f41786b54ea9383a65a9f249e">common_nav.h</a>
+, <a class="el" href="navigation_8c.html#a4603515f41786b54ea9383a65a9f249e">navigation.c</a>
 , <a class="el" href="navigation_8h.html#a4603515f41786b54ea9383a65a9f249e">navigation.h</a>
 , <a class="el" href="common__nav_8c.html#a4603515f41786b54ea9383a65a9f249e">common_nav.c</a>
-, <a class="el" href="common__nav_8h.html#a4603515f41786b54ea9383a65a9f249e">common_nav.h</a>
 </li>
 <li>compute_ff_vel()
 : <a class="el" href="range__forcefield_8c.html#aa72a4c6650c738da118b1e27d6d5a7cb">range_forcefield.c</a>
@@ -518,8 +488,8 @@ $(document).ready(function(){initNavTree('globals_func_c.html','');});
 , <a class="el" href="copilot__common_8c.html#a26bac4acadf2381eb5b9e5fd512c4a16">copilot_common.c</a>
 </li>
 <li>copilot_parse_cam_payload_dl()
-: <a class="el" href="copilot__common_8c.html#a59e05c9fee48850daf7dcf2a8d40f7fc">copilot_common.c</a>
-, <a class="el" href="copilot_8h.html#a59e05c9fee48850daf7dcf2a8d40f7fc">copilot.h</a>
+: <a class="el" href="copilot_8h.html#a59e05c9fee48850daf7dcf2a8d40f7fc">copilot.h</a>
+, <a class="el" href="copilot__common_8c.html#a59e05c9fee48850daf7dcf2a8d40f7fc">copilot_common.c</a>
 </li>
 <li>copilot_parse_cam_snapshot_dl()
 : <a class="el" href="copilot_8h.html#a45b997dd03ef29008f0c189157238133">copilot.h</a>
@@ -542,13 +512,16 @@ $(document).ready(function(){initNavTree('globals_func_c.html','');});
 : <a class="el" href="fixedwing_2autopilot__generated_8c.html#ab8d2d846e05038e13cfb45b8bb8f0921">autopilot_generated.c</a>
 , <a class="el" href="fixedwing_2autopilot__static_8c.html#ab8d2d846e05038e13cfb45b8bb8f0921">autopilot_static.c</a>
 </li>
+<li>count_bytes()
+: <a class="el" href="gec__dl_8c.html#a04d60d62265b9045d79e209fab183e0f">gec_dl.c</a>
+</li>
 <li>covariance_f()
-: <a class="el" href="pprz__stat_8c.html#ac75c0169ede28d21ada6d51e7431ea18">pprz_stat.c</a>
-, <a class="el" href="pprz__stat_8h.html#acfa4250d4cb12b024d2d6a19d8253695">pprz_stat.h</a>
+: <a class="el" href="pprz__stat_8h.html#acfa4250d4cb12b024d2d6a19d8253695">pprz_stat.h</a>
+, <a class="el" href="pprz__stat_8c.html#ac75c0169ede28d21ada6d51e7431ea18">pprz_stat.c</a>
 </li>
 <li>covariance_i()
-: <a class="el" href="pprz__stat_8c.html#a938b3854a384a0e327d27cf1c515b117">pprz_stat.c</a>
-, <a class="el" href="pprz__stat_8h.html#a938b3854a384a0e327d27cf1c515b117">pprz_stat.h</a>
+: <a class="el" href="pprz__stat_8h.html#a938b3854a384a0e327d27cf1c515b117">pprz_stat.h</a>
+, <a class="el" href="pprz__stat_8c.html#a938b3854a384a0e327d27cf1c515b117">pprz_stat.c</a>
 </li>
 <li>cpu_ticks_of_nsec()
 : <a class="el" href="sys__time_8h.html#ab9fdc67ec3fff3769bebcd04e7ee86c2">sys_time.h</a>
@@ -577,23 +550,23 @@ $(document).ready(function(){initNavTree('globals_func_c.html','');});
 <li>create_tag()
 : <a class="el" href="exif__module_8c.html#a62dd27ed931462c0526e4632461c7acf">exif_module.c</a>
 </li>
+<li>ctrl_eff_scheduling_init()
+: <a class="el" href="ctrl__effectiveness__scheduling_8c.html#afa83ea9955eb8fb36341a2169a823af1">ctrl_effectiveness_scheduling.c</a>
+, <a class="el" href="ctrl__effectiveness__scheduling_8h.html#afa83ea9955eb8fb36341a2169a823af1">ctrl_effectiveness_scheduling.h</a>
+</li>
+<li>ctrl_eff_scheduling_periodic()
+: <a class="el" href="ctrl__effectiveness__scheduling_8h.html#a80dcca086fcbf5ef61bfe9d420b5ae10">ctrl_effectiveness_scheduling.h</a>
+, <a class="el" href="ctrl__effectiveness__scheduling_8c.html#a80dcca086fcbf5ef61bfe9d420b5ae10">ctrl_effectiveness_scheduling.c</a>
+</li>
 <li>ctrl_module_init()
 : <a class="el" href="ctrl__module__demo_8c.html#a2a7323cb20a25d04675e7029725d0f06">ctrl_module_demo.c</a>
 </li>
 <li>ctrl_module_run()
 : <a class="el" href="ctrl__module__demo_8c.html#a246e056658d0e550e72754ab59707a78">ctrl_module_demo.c</a>
 </li>
-<li>Curve25519_crypto_scalarmult()
-: <a class="el" href="Curve25519_8c.html#a9d0afa47b08fa4832372ed595621b1d1">Curve25519.c</a>
-, <a class="el" href="Curve25519_8h.html#a9d0afa47b08fa4832372ed595621b1d1">Curve25519.h</a>
-</li>
-<li>Curve25519_op_String_Access()
-: <a class="el" href="Curve25519_8c.html#a19cfea2ffed177bc6b8f51f4b50e4cb1">Curve25519.c</a>
-, <a class="el" href="Curve25519_8h.html#a19cfea2ffed177bc6b8f51f4b50e4cb1">Curve25519.h</a>
-</li>
 <li>cv_add_to_device()
-: <a class="el" href="cv_8c.html#aee4ecc7b59c1526a024f91a46a34ff45">cv.c</a>
-, <a class="el" href="cv_8h.html#aee4ecc7b59c1526a024f91a46a34ff45">cv.h</a>
+: <a class="el" href="cv_8h.html#aee4ecc7b59c1526a024f91a46a34ff45">cv.h</a>
+, <a class="el" href="cv_8c.html#aee4ecc7b59c1526a024f91a46a34ff45">cv.c</a>
 </li>
 <li>cv_add_to_device_async()
 : <a class="el" href="cv_8h.html#a14d4ab03a3db0de4144a4c497c4b8149">cv.h</a>
@@ -620,8 +593,8 @@ $(document).ready(function(){initNavTree('globals_func_c.html','');});
 , <a class="el" href="cv__blob__locator_8h.html#a03040f93fee504200fd409c45f488e4d">cv_blob_locator.h</a>
 </li>
 <li>cv_blob_locator_periodic()
-: <a class="el" href="cv__blob__locator_8c.html#a4155e79e90bf935651c760ccdfbef27b">cv_blob_locator.c</a>
-, <a class="el" href="cv__blob__locator_8h.html#a4155e79e90bf935651c760ccdfbef27b">cv_blob_locator.h</a>
+: <a class="el" href="cv__blob__locator_8h.html#a4155e79e90bf935651c760ccdfbef27b">cv_blob_locator.h</a>
+, <a class="el" href="cv__blob__locator_8c.html#a4155e79e90bf935651c760ccdfbef27b">cv_blob_locator.c</a>
 </li>
 <li>cv_blob_locator_start()
 : <a class="el" href="cv__blob__locator_8c.html#a0625acc5c17262bca58f3055fcad6c29">cv_blob_locator.c</a>
@@ -635,19 +608,19 @@ $(document).ready(function(){initNavTree('globals_func_c.html','');});
 : <a class="el" href="cv__blob__locator_8c.html#abdf385a8df79da68d81a4c0fede3899e">cv_blob_locator.c</a>
 </li>
 <li>cv_run_device()
-: <a class="el" href="cv_8c.html#a600c1d8570ebc9340cee21772e84f022">cv.c</a>
-, <a class="el" href="cv_8h.html#a600c1d8570ebc9340cee21772e84f022">cv.h</a>
+: <a class="el" href="cv_8h.html#a600c1d8570ebc9340cee21772e84f022">cv.h</a>
+, <a class="el" href="cv_8c.html#a600c1d8570ebc9340cee21772e84f022">cv.c</a>
 </li>
 <li>cv_window_func()
 : <a class="el" href="cv__blob__locator_8c.html#aa46d070d93f91a7f2399fe13aafab1bd">cv_blob_locator.c</a>
 </li>
 <li>cyrf6936_event()
-: <a class="el" href="cyrf6936_8h.html#a0b25c82679dcd151cb4eb29986f796c9">cyrf6936.h</a>
-, <a class="el" href="cyrf6936_8c.html#a0b25c82679dcd151cb4eb29986f796c9">cyrf6936.c</a>
+: <a class="el" href="cyrf6936_8c.html#a0b25c82679dcd151cb4eb29986f796c9">cyrf6936.c</a>
+, <a class="el" href="cyrf6936_8h.html#a0b25c82679dcd151cb4eb29986f796c9">cyrf6936.h</a>
 </li>
 <li>cyrf6936_init()
-: <a class="el" href="cyrf6936_8h.html#a27414d1e4d63182c97357b576f05b37d">cyrf6936.h</a>
-, <a class="el" href="cyrf6936_8c.html#a27414d1e4d63182c97357b576f05b37d">cyrf6936.c</a>
+: <a class="el" href="cyrf6936_8c.html#a27414d1e4d63182c97357b576f05b37d">cyrf6936.c</a>
+, <a class="el" href="cyrf6936_8h.html#a27414d1e4d63182c97357b576f05b37d">cyrf6936.h</a>
 </li>
 <li>cyrf6936_multi_write()
 : <a class="el" href="cyrf6936_8c.html#a3b40b6f25aa27591a77e570e7bd0de49">cyrf6936.c</a>
@@ -660,23 +633,23 @@ $(document).ready(function(){initNavTree('globals_func_c.html','');});
 : <a class="el" href="cyrf6936_8c.html#aca1d3266e0b4cb4c4b4a65ad2085cefb">cyrf6936.c</a>
 </li>
 <li>cyrf6936_read_rx_irq_status_packet()
-: <a class="el" href="cyrf6936_8h.html#a9476a030cd1c1812dd9415f8913c35f6">cyrf6936.h</a>
-, <a class="el" href="cyrf6936_8c.html#a9476a030cd1c1812dd9415f8913c35f6">cyrf6936.c</a>
+: <a class="el" href="cyrf6936_8c.html#a9476a030cd1c1812dd9415f8913c35f6">cyrf6936.c</a>
+, <a class="el" href="cyrf6936_8h.html#a9476a030cd1c1812dd9415f8913c35f6">cyrf6936.h</a>
 </li>
 <li>cyrf6936_send()
 : <a class="el" href="cyrf6936_8c.html#ab2e2ab2d19b97905d2c9825f65cddfda">cyrf6936.c</a>
 , <a class="el" href="cyrf6936_8h.html#ab2e2ab2d19b97905d2c9825f65cddfda">cyrf6936.h</a>
 </li>
 <li>cyrf6936_write()
-: <a class="el" href="cyrf6936_8c.html#a5bd95c0f89a44a38d8fc8b71a8d1b2b3">cyrf6936.c</a>
-, <a class="el" href="cyrf6936_8h.html#a5bd95c0f89a44a38d8fc8b71a8d1b2b3">cyrf6936.h</a>
+: <a class="el" href="cyrf6936_8h.html#a5bd95c0f89a44a38d8fc8b71a8d1b2b3">cyrf6936.h</a>
+, <a class="el" href="cyrf6936_8c.html#a5bd95c0f89a44a38d8fc8b71a8d1b2b3">cyrf6936.c</a>
 </li>
 <li>cyrf6936_write_block()
 : <a class="el" href="cyrf6936_8c.html#add9d028cf1928e8ef15d28e43a952a4b">cyrf6936.c</a>
 </li>
 <li>cyrf6936_write_chan_sop_data_crc()
-: <a class="el" href="cyrf6936_8h.html#a5185bf5f551b606637aaba99a2de5934">cyrf6936.h</a>
-, <a class="el" href="cyrf6936_8c.html#a5185bf5f551b606637aaba99a2de5934">cyrf6936.c</a>
+: <a class="el" href="cyrf6936_8c.html#a5185bf5f551b606637aaba99a2de5934">cyrf6936.c</a>
+, <a class="el" href="cyrf6936_8h.html#a5185bf5f551b606637aaba99a2de5934">cyrf6936.h</a>
 </li>
 <li>cyrf6936_write_register()
 : <a class="el" href="cyrf6936_8c.html#a7dbf6c94dc4d29bc1c8a46b797e745e8">cyrf6936.c</a>
@@ -687,7 +660,7 @@ $(document).ready(function(){initNavTree('globals_func_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Nov 8 2017 10:03:16 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:03:23 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

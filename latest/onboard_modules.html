@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -274,8 +274,10 @@ Core modules</h2>
 <h2><a class="anchor" id="modules_category_ctrl"></a>
 Ctrl modules</h2>
 <ul>
+<li><a class="el" href="module__ctrl_effectiveness_scheduling.html">ctrl_effectiveness_scheduling module</a> : Interpolation of control effectivenss matrix.</li>
 <li><a class="el" href="module__ctrl_module_demo.html">ctrl_module_demo module</a> : Demo Control Module.</li>
 <li><a class="el" href="module__gain_scheduling.html">gain_scheduling module</a> : Gain set interpolation.</li>
+<li><a class="el" href="module__object_tracking.html">object_tracking module</a> : Control a rotorcraft heading to track an object detected by a camera</li>
 <li><a class="el" href="module__optical_flow_landing.html">optical_flow_landing module</a> : Optical flow landing.</li>
 <li><a class="el" href="module__vertical_ctrl_module_demo.html">vertical_ctrl_module_demo module</a> : Demo Vertical Control Module.</li>
 </ul>
@@ -289,10 +291,12 @@ Datalink modules</h2>
 <li><a class="el" href="module__telemetry_bluegiga.html">telemetry_bluegiga module</a> : Telemetry using PPRZ protocol over Bluegiga modules</li>
 <li><a class="el" href="module__telemetry_ivy.html">telemetry_ivy module</a> : Telemetry using IVY</li>
 <li><a class="el" href="module__telemetry_nps.html">telemetry_nps module</a> : Telemetry module for NPS simalation</li>
+<li><a class="el" href="module__telemetry_nps_secure.html">telemetry_nps_secure module</a> : Telemetry module for NPS simulation</li>
+<li><a class="el" href="module__telemetry_secure_common.html">telemetry_secure_common module</a> : Telemetry using secure PPRZ protocol - common parts</li>
 <li><a class="el" href="module__telemetry_sim.html">telemetry_sim module</a> : Telemetry using IVY for basic FW simulator</li>
 <li><a class="el" href="module__telemetry_superbitrf.html">telemetry_superbitrf module</a> : Telemetry using PPRZ protocol over <a class="el" href="subsystems_2datalink_2superbitrf_8h.html#structSuperbitRF">SuperbitRF</a> module</li>
 <li><a class="el" href="module__telemetry_transparent.html">telemetry_transparent module</a> : Telemetry using PPRZ protocol over UART</li>
-<li><a class="el" href="module__telemetry_transparent_secure.html">telemetry_transparent_secure module</a> : Telemetry using secure PPRZ protocol over UART</li>
+<li><a class="el" href="module__telemetry_transparent_gec.html">telemetry_transparent_gec module</a> : Galois Embedded Crypto over transparent datalink</li>
 <li><a class="el" href="module__telemetry_transparent_udp.html">telemetry_transparent_udp module</a> : Telemetry using PPRZ protocol over UDP</li>
 <li><a class="el" href="module__telemetry_transparent_usb.html">telemetry_transparent_usb module</a> : Telemetry using PPRZ protocol over serial USB (e.g</li>
 <li><a class="el" href="module__telemetry_w5100.html">telemetry_w5100 module</a> : Telemetry using PPRZ protocol over W5100 Wifi module</li>
@@ -480,6 +484,7 @@ Mcu_Periph modules</h2>
 <li><a class="el" href="module__dac.html">dac module</a> : General DAC driver</li>
 <li><a class="el" href="module__i2c.html">i2c module</a> : General I2C driver</li>
 <li><a class="el" href="module__mcu.html">mcu module</a> : Automatic initialization module for all MCU peripherals</li>
+<li><a class="el" href="module__rng.html">rng module</a> : Random Number Generator</li>
 <li><a class="el" href="module__spi_master.html">spi_master module</a> : General SPI driver (master mode)</li>
 <li><a class="el" href="module__spi_slave_hs.html">spi_slave_hs module</a> : General SPI driver (high speed slave mode)</li>
 <li><a class="el" href="module__uart.html">uart module</a> : General UART driver</li>
@@ -678,6 +683,8 @@ Misc modules</h2>
 <li><a class="el" href="module__current_sensor.html">current_sensor module</a> : Current sensor via onboard ADC.</li>
 <li><a class="el" href="module__cv_qrcode.html">cv_qrcode module</a> : QR code reader using ZBAR library</li>
 <li><a class="el" href="module__demo_module.html">demo_module module</a> : Demo module</li>
+<li><a class="el" href="module__distributed_circular_formation.html">distributed_circular_formation module</a> : Distributed algorithm for circular formations with air-to-air communications.</li>
+<li><a class="el" href="module__dragspeed.html">dragspeed module</a> : Estimate the velocity/airspeed of rotorcraft by measuring the drag force.</li>
 <li><a class="el" href="module__enose.html">enose module</a> : Chemical Enose sensor</li>
 <li><a class="el" href="module__esc32.html">esc32 module</a> : Driver for the ESC32v3 speed controller</li>
 <li><a class="el" href="module__gas_engine_idle.html">gas_engine_idle module</a> : Gas Engine Idle</li>
@@ -692,6 +699,7 @@ Misc modules</h2>
 <li><a class="el" href="module__imu_aspirin_i2c_common.html">imu_aspirin_i2c_common module</a> : Common functionality of Aspirin IMUs using I2C only.</li>
 <li><a class="el" href="module__imu_aspirin_v2_common.html">imu_aspirin_v2_common module</a> : Common functionality of Aspirin v2 IMUs.</li>
 <li><a class="el" href="module__imu_vectornav.html">imu_vectornav module</a> : Vectornav VN-200 over uart used as IMU.</li>
+<li><a class="el" href="module__jevois.html">jevois module</a> : Decoder for standardized messages from the JEVOIS smart camera (<a href="http://jevois.org">http://jevois.org</a>)</li>
 <li><a class="el" href="module__max3100.html">max3100 module</a> : MAX3100 SPI/Uart converter</li>
 <li><a class="el" href="module__obstacle_avoidance.html">obstacle_avoidance module</a> : Obstacle avoidance module</li>
 <li><a class="el" href="module__opa_controller.html">opa_controller module</a> : Controller for OPA board functionalities</li>
@@ -715,7 +723,7 @@ Misc modules</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Nov 8 2017 10:02:45 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:02:52 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

@@ -3,7 +3,7 @@
 <area shape="rect" id="node3" href="$guidance__flip_8c.html" title="Open Loop guidance for making a flip. " alt="" coords="191,117,352,173"/>
 <area shape="rect" id="node4" href="$rotorcraft_2guidance_2guidance__h_8c.html" title="Horizontal guidance for rotorcrafts. " alt="" coords="376,117,537,173"/>
 <area shape="rect" id="node5" href="$guidance__hybrid_8c.html" title="Guidance controllers (horizontal and vertical) for Hybrid UAV configurations. " alt="" coords="561,117,723,173"/>
-<area shape="rect" id="node6" href="$guidance__indi_8c.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion Come to IROS2016 to learn more! ..." alt="" coords="747,117,908,173"/>
+<area shape="rect" id="node6" href="$guidance__indi_8c.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion. " alt="" coords="747,117,908,173"/>
 <area shape="rect" id="node7" href="$stabilization__attitude__euler__float_8c.html" title="Rotorcraft attitude stabilization in euler float version. " alt="" coords="932,109,1099,180"/>
 <area shape="rect" id="node8" href="$stabilization__attitude__euler__int_8c.html" title="Rotorcraft attitude stabilization in euler int version. " alt="" coords="1123,109,1289,180"/>
 <area shape="rect" id="node9" href="$stabilization__attitude__heli__indi_8c.html" title="Helicopter quaternion INDI attitude stabilization. " alt="" coords="1313,109,1480,180"/>

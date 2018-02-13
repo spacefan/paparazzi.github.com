@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$boards_2bebop_2actuators_8c.html" title="Actuator driver for the bebop and bebop 2. " alt="" coords="1003,102,1145,143"/>
 <area shape="rect" id="node3" href="$rotorcraft_2autopilot__static_8c.html" title="Static autopilot implementation. " alt="" coords="5,206,167,262"/>
 <area shape="rect" id="node4" href="$rotorcraft_2guidance_2guidance__h_8c.html" title="Horizontal guidance for rotorcrafts. " alt="" coords="191,206,352,262"/>
-<area shape="rect" id="node5" href="$guidance__indi_8c.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion Come to IROS2016 to learn more! ..." alt="" coords="376,206,537,262"/>
+<area shape="rect" id="node5" href="$guidance__indi_8c.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion. " alt="" coords="376,206,537,262"/>
 <area shape="rect" id="node6" href="$rotorcraft_2guidance_2guidance__v_8c.html" title="Vertical guidance for rotorcrafts. " alt="" coords="1568,95,1729,151"/>
 <area shape="rect" id="node7" href="$rotorcraft_2stabilization_2stabilization__attitude_8h.html" title="General attitude stabilization interface for rotorcrafts. " alt="" coords="1322,95,1493,151"/>
 <area shape="rect" id="node13" href="$stabilization__attitude__passthrough_8c.html" title="passthrough attitude stabilization " alt="" coords="3073,199,3240,269"/>

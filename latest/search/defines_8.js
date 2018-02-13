@@ -131,9 +131,5 @@ var searchData=
   ['hr120',['HR120',['../swashplate__mixing_8h.html#ad447670ce4543175271869b8233a46a0',1,'swashplate_mixing.h']]],
   ['htm_5fi2c_5fdev',['HTM_I2C_DEV',['../humid__htm__b71_8c.html#a37f0407ea00c0a7c0293631507b4aa46',1,'humid_htm_b71.c']]],
   ['htm_5fslave_5faddr',['HTM_SLAVE_ADDR',['../humid__htm__b71_8c.html#ae4aeefdce8e2dc898edec7541d412f0e',1,'humid_htm_b71.c']]],
-  ['htobe32',['htobe32',['../kremlib_8h.html#aa65407014913309932b9a5ea3c16a86d',1,'kremlib.h']]],
-  ['htobe64',['htobe64',['../kremlib_8h.html#a5c81b75e6da4507e0a90b6f6169c4787',1,'kremlib.h']]],
-  ['htole32',['htole32',['../kremlib_8h.html#a9bea1e76e277f13ae39ac86095510bfa',1,'kremlib.h']]],
-  ['htole64',['htole64',['../kremlib_8h.html#a3070a5f8867dbc37bdafcb1a7cd491bf',1,'kremlib.h']]],
   ['humi',['HUMI',['../humid__sht_8c.html#a51ac1a55c11f4fd1b202ca488b9d5e3d',1,'humid_sht.c']]]
 ];

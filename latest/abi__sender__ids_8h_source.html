@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -138,7 +138,7 @@ $(document).ready(function(){initNavTree('abi__sender__ids_8h_source.html','');}
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * IDs of baro modules that can be loaded</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"> * IDs of baro modules that can be loaded (message 0)</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#ifndef BARO_MS5611_SENDER_ID</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#a16f28a2a01a4d1726b79977b5350e960">   40</a></span>&#160;<span class="preprocessor">#define BARO_MS5611_SENDER_ID 10</span></div>
@@ -185,7 +185,7 @@ $(document).ready(function(){initNavTree('abi__sender__ids_8h_source.html','');}
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment"> * IDs of differential pressure sensors</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment"> * IDs of differential pressure sensors (message 1)</span></div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment"> * can usually also publish temperature like baro sensors</span></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#ifndef MS45XX_SENDER_ID</span></div>
@@ -193,7 +193,7 @@ $(document).ready(function(){initNavTree('abi__sender__ids_8h_source.html','');}
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment"> * IDs of AGL measurment modules that can be loaded (sonars,...)</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment"> * IDs of AGL measurment modules that can be loaded (sonars,...) (message 2)</span></div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#ifndef AGL_SONAR_ADC_ID</span></div>
 <div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#a01bcd618275bfe0ec614b8a5e55c721c">   95</a></span>&#160;<span class="preprocessor">#define AGL_SONAR_ADC_ID 1</span></div>
@@ -247,7 +247,7 @@ $(document).ready(function(){initNavTree('abi__sender__ids_8h_source.html','');}
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="comment"> * IDs of GPS sensors</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;<span class="comment"> * IDs of GPS sensors (message 10)</span></div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor">#ifndef GPS_UBX_ID</span></div>
 <div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#acf3cb8ecc014c5b1d2224b6ff412eeff">  149</a></span>&#160;<span class="preprocessor">#define GPS_UBX_ID 1</span></div>
@@ -376,83 +376,113 @@ $(document).ready(function(){initNavTree('abi__sender__ids_8h_source.html','');}
 <div class="line"><a name="l00272"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#ab295b8c7f57ad6615389c92e8efa694b">  272</a></span>&#160;<span class="preprocessor">#define IMU_MPU60X0_ID 16</span></div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor">#ifndef PX4FLOW_VELOCITY_ID</span></div>
-<div class="line"><a name="l00276"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#ae36e33780c327d268f4e1da02cfa3e98">  276</a></span>&#160;<span class="preprocessor">#define PX4FLOW_VELOCITY_ID 17</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor">#ifndef IMU_PX4_ID</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#ad33d8a4fb998069ae4b9752f1b2cf0f4">  276</a></span>&#160;<span class="preprocessor">#define IMU_PX4_ID 17</span></div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="preprocessor">#ifndef IMU_PX4_ID</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#ad33d8a4fb998069ae4b9752f1b2cf0f4">  280</a></span>&#160;<span class="preprocessor">#define IMU_PX4_ID 18</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="preprocessor">#ifndef IMU_VECTORNAV_ID</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#ab0e3b530f3fa21e8cc7f3daaafa4fa0c">  280</a></span>&#160;<span class="preprocessor">#define IMU_VECTORNAV_ID 18</span></div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="preprocessor">#ifndef IMU_VECTORNAV_ID</span></div>
-<div class="line"><a name="l00284"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#ab0e3b530f3fa21e8cc7f3daaafa4fa0c">  284</a></span>&#160;<span class="preprocessor">#define IMU_VECTORNAV_ID 19</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="comment"> * IDs of RSSI measurements (message 13)</span></div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor">#ifndef RSSI_BLUEGIGA_ID</span></div>
-<div class="line"><a name="l00291"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#af646ed1faa469ec469c3fd37b354b7db">  291</a></span>&#160;<span class="preprocessor">#define RSSI_BLUEGIGA_ID 1</span></div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="comment"> * IDs of RPM sensors (message 15)</span></div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;<span class="preprocessor">#ifndef RPM_SENSOR_ID</span></div>
-<div class="line"><a name="l00298"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#a366120cccd504b29f24896cee4cccf57">  298</a></span>&#160;<span class="preprocessor">#define RPM_SENSOR_ID 1</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="comment"> * IDs of OPTICFLOW estimates (message 12)</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor">#ifndef FLOW_OPTICFLOW_ID</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#aacbc4254982cf58912e4a64f3f52ead1">  287</a></span>&#160;<span class="preprocessor">#define FLOW_OPTICFLOW_ID 1</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="comment"> * IDs of VELOCITY estimates (message 12)</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="preprocessor">#ifndef VEL_DRAGSPEED_ID</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#afb7e35c059cecd94e6c59c0169ee1ebc">  294</a></span>&#160;<span class="preprocessor">#define VEL_DRAGSPEED_ID 1</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;<span class="preprocessor">#ifndef VEL_PX4FLOW_ID</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#ae0e23da0e84c6db6de96556368dacae2">  298</a></span>&#160;<span class="preprocessor">#define VEL_PX4FLOW_ID 2</span></div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="comment"> * IDs of THRUST increment calculation (message 16)</span></div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="preprocessor">#ifndef THRUST_INCREMENT_ID</span></div>
-<div class="line"><a name="l00305"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#aef2527d3e072d8a462222ec89d75727c">  305</a></span>&#160;<span class="preprocessor">#define THRUST_INCREMENT_ID 1</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="preprocessor">#ifndef MAG_CALIB_UKF_ID</span></div>
-<div class="line"><a name="l00309"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#ae841f83efe6d9e822cc5379df3a8a050">  309</a></span>&#160;<span class="preprocessor">#define MAG_CALIB_UKF_ID 20</span></div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="comment"> * UWB communication (message 19)</span></div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="preprocessor">#ifndef UWB_COMM_ID</span></div>
-<div class="line"><a name="l00316"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#a0767ff0c7d6c1b310804a717b39b0ed3">  316</a></span>&#160;<span class="preprocessor">#define UWB_COMM_ID 1</span></div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="comment"> * IDs of Obstacle detection systems</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor">#ifndef VEL_OPTICFLOW_ID</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#a188ba3cb3d1c77a4c98410bc1dc69c8b">  302</a></span>&#160;<span class="preprocessor">#define VEL_OPTICFLOW_ID 3</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="preprocessor">#ifndef VEL_STEREOCAM_ID</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#aff6fe44212fb356543cca4463819483f">  306</a></span>&#160;<span class="preprocessor">#define VEL_STEREOCAM_ID 4</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="comment"> * IDs of RSSI measurements (message 13)</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="preprocessor">#ifndef RSSI_BLUEGIGA_ID</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#af646ed1faa469ec469c3fd37b354b7db">  313</a></span>&#160;<span class="preprocessor">#define RSSI_BLUEGIGA_ID 1</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="comment"> * IDs of RPM sensors (message 15)</span></div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="preprocessor">#ifndef RPM_SENSOR_ID</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#a366120cccd504b29f24896cee4cccf57">  320</a></span>&#160;<span class="preprocessor">#define RPM_SENSOR_ID 1</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor">#ifndef OBS_DETECTION_COLOR_ID</span></div>
-<div class="line"><a name="l00324"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#aa5a933108a0974d6486fe72ca79b249c">  324</a></span>&#160;<span class="preprocessor">#define OBS_DETECTION_COLOR_ID 1</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="preprocessor">#ifndef OBS_DETECTION_RANGE_ARRAY_ID</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#ad2f16a9c7c02a063188512a864094fba">  328</a></span>&#160;<span class="preprocessor">#define OBS_DETECTION_RANGE_ARRAY_ID 2</span></div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="preprocessor">#ifndef OBS_DETECTION_RANGE_ARRAY_NPS_ID</span></div>
-<div class="line"><a name="l00332"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#aab0c8bb43b2e8e067557c4720890a837">  332</a></span>&#160;<span class="preprocessor">#define OBS_DETECTION_RANGE_ARRAY_NPS_ID 3</span></div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="comment"> * ID&#39;s of forcefield generating type functions</span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">#ifndef RANGE_FORCEFIELD_ID</span></div>
-<div class="line"><a name="l00340"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#aaed040930aab51aeb612aba936c5d748">  340</a></span>&#160;<span class="preprocessor">#define RANGE_FORCEFIELD_ID 1</span></div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* ABI_SENDER_IDS_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="comment"> * IDs of THRUST increment calculation (message 16)</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="preprocessor">#ifndef THRUST_INCREMENT_ID</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#aef2527d3e072d8a462222ec89d75727c">  327</a></span>&#160;<span class="preprocessor">#define THRUST_INCREMENT_ID 1</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="preprocessor">#ifndef MAG_CALIB_UKF_ID</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#ae841f83efe6d9e822cc5379df3a8a050">  331</a></span>&#160;<span class="preprocessor">#define MAG_CALIB_UKF_ID 20</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="comment"> * UWB communication (message 19)</span></div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="preprocessor">#ifndef UWB_COMM_ID</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#a0767ff0c7d6c1b310804a717b39b0ed3">  338</a></span>&#160;<span class="preprocessor">#define UWB_COMM_ID 1</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="comment"> * IDs of Obstacle detection systems</span></div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;<span class="preprocessor">#ifndef OBS_DETECTION_COLOR_ID</span></div>
+<div class="line"><a name="l00346"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#aa5a933108a0974d6486fe72ca79b249c">  346</a></span>&#160;<span class="preprocessor">#define OBS_DETECTION_COLOR_ID 1</span></div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="preprocessor">#ifndef OBS_DETECTION_RANGE_ARRAY_ID</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#ad2f16a9c7c02a063188512a864094fba">  350</a></span>&#160;<span class="preprocessor">#define OBS_DETECTION_RANGE_ARRAY_ID 2</span></div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<span class="preprocessor">#ifndef OBS_DETECTION_RANGE_ARRAY_NPS_ID</span></div>
+<div class="line"><a name="l00354"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#aab0c8bb43b2e8e067557c4720890a837">  354</a></span>&#160;<span class="preprocessor">#define OBS_DETECTION_RANGE_ARRAY_NPS_ID 3</span></div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;<span class="comment"> * ID&#39;s of forcefield generating type functions</span></div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;<span class="preprocessor">#ifndef RANGE_FORCEFIELD_ID</span></div>
+<div class="line"><a name="l00362"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#aaed040930aab51aeb612aba936c5d748">  362</a></span>&#160;<span class="preprocessor">#define RANGE_FORCEFIELD_ID 1</span></div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;<span class="comment"> * ID&#39;s for camera type sensors</span></div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;<span class="preprocessor">#ifndef CAM_JEVOIS_ID</span></div>
+<div class="line"><a name="l00370"></a><span class="lineno"><a class="line" href="abi__sender__ids_8h.html#aa597c6d82e55f0e878c824cea72eacbd">  370</a></span>&#160;<span class="preprocessor">#define CAM_JEVOIS_ID 1</span></div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* ABI_SENDER_IDS_H */</span><span class="preprocessor"></span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_12d6ec7aac5a4a9b8cee17e35022d7c7.html">subsystems</a></li><li class="navelem"><a class="el" href="abi__sender__ids_8h.html">abi_sender_ids.h</a></li>
-    <li class="footer">Generated on Wed Nov 8 2017 10:01:48 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:01:58 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

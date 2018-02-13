@@ -77,7 +77,6 @@ var searchData=
   ['evt_5fusb_5freset',['EVT_USB_RESET',['../usb__msd_8h.html#ac28579335a8f21ae1dcef6d69fbb1359',1,'usb_msd.h']]],
   ['evt_5fwait_5ffor_5fcommand_5fblock',['EVT_WAIT_FOR_COMMAND_BLOCK',['../usb__msd_8h.html#a5c540aeb2bb8743d2b5cdad48ccd4e31',1,'usb_msd.h']]],
   ['exhaustive_5ffast',['EXHAUSTIVE_FAST',['../opticflow__calculator_8c.html#a8ec04431f08f3a2b5b61f1558e9c30a5',1,'opticflow_calculator.c']]],
-  ['exit',['exit',['../kremlib_8h.html#a2c0fc8fb2a170824c3e134b3e7a4a1e9',1,'kremlib.h']]],
   ['expand_5fas_5fenum',['EXPAND_AS_ENUM',['../libisp_8h.html#ad337cbf142f664987d730085a31700fe',1,'libisp.h']]],
   ['expand_5fas_5ffunction',['EXPAND_AS_FUNCTION',['../libisp_8c.html#a04d4a00ad6c9ad268f987de784ecbae6',1,'libisp.c']]],
   ['expand_5fas_5fprototype',['EXPAND_AS_PROTOTYPE',['../libisp_8h.html#ade6570385aa26bc1af4ae27bbe05237f',1,'libisp.h']]],

@@ -1,6 +1,9 @@
 var searchData=
 [
   ['j',['J',['../trilateration_8c.html#a7c20f6b5c2b8c830d450944735b761b3',1,'trilateration.c']]],
+  ['jevois',['jevois',['../jevois_8c.html#a3de623487ef4ff78a085fc3acc3d5f78',1,'jevois.c']]],
+  ['jevois_5fmapping_5fsetting',['jevois_mapping_setting',['../jevois_8c.html#a53d4fd857346115161fea92cd6517690',1,'jevois_mapping_setting():&#160;jevois.c'],['../jevois_8h.html#a53d4fd857346115161fea92cd6517690',1,'jevois_mapping_setting():&#160;jevois.c']]],
+  ['jevois_5fstream_5fsetting',['jevois_stream_setting',['../jevois_8c.html#a02337daa2df8835d1308bdf61367e664',1,'jevois_stream_setting():&#160;jevois.c'],['../jevois_8h.html#a02337daa2df8835d1308bdf61367e664',1,'jevois_stream_setting():&#160;jevois.c']]],
   ['joystick_5fblock',['joystick_block',['../joystick_8h.html#a66c62dd4288ab52a75e6e7a524900ef3',1,'joystick.h']]],
   ['jpeg_5fchroma_5fquantizer',['jpeg_chroma_quantizer',['../jpeg_8c.html#acff8e4aed7722b780bbb9c6a682a2d0d',1,'jpeg.c']]],
   ['jpeg_5fluma_5fquantizer',['jpeg_luma_quantizer',['../jpeg_8c.html#a66aa70d246f7f2f3b3b74d133b505b84',1,'jpeg.c']]],

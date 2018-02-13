@@ -21,6 +21,8 @@ var abi__sender__ids_8h =
     [ "BARO_PBN_SENDER_ID", "abi__sender__ids_8h.html#a2d896d0e33c22364c608d78c7ed335a0", null ],
     [ "BARO_SCP_SENDER_ID", "abi__sender__ids_8h.html#a8a4582738989e2d5ae328febdf395f4c", null ],
     [ "BARO_SIM_SENDER_ID", "abi__sender__ids_8h.html#a0d2714c1cf5e33e117c0a1e0d5694c7a", null ],
+    [ "CAM_JEVOIS_ID", "abi__sender__ids_8h.html#aa597c6d82e55f0e878c824cea72eacbd", null ],
+    [ "FLOW_OPTICFLOW_ID", "abi__sender__ids_8h.html#aacbc4254982cf58912e4a64f3f52ead1", null ],
     [ "GPS_ARDRONE2_ID", "abi__sender__ids_8h.html#a89ee30b4159982f2c1f7a14b7cad3a04", null ],
     [ "GPS_DATALINK_ID", "abi__sender__ids_8h.html#aef07af90245460cd24c077a3643778fd", null ],
     [ "GPS_DW1000_ID", "abi__sender__ids_8h.html#abedd83b6da15e621b777f93a8893e31b", null ],
@@ -62,10 +64,13 @@ var abi__sender__ids_8h =
     [ "OBS_DETECTION_COLOR_ID", "abi__sender__ids_8h.html#aa5a933108a0974d6486fe72ca79b249c", null ],
     [ "OBS_DETECTION_RANGE_ARRAY_ID", "abi__sender__ids_8h.html#ad2f16a9c7c02a063188512a864094fba", null ],
     [ "OBS_DETECTION_RANGE_ARRAY_NPS_ID", "abi__sender__ids_8h.html#aab0c8bb43b2e8e067557c4720890a837", null ],
-    [ "PX4FLOW_VELOCITY_ID", "abi__sender__ids_8h.html#ae36e33780c327d268f4e1da02cfa3e98", null ],
     [ "RANGE_FORCEFIELD_ID", "abi__sender__ids_8h.html#aaed040930aab51aeb612aba936c5d748", null ],
     [ "RPM_SENSOR_ID", "abi__sender__ids_8h.html#a366120cccd504b29f24896cee4cccf57", null ],
     [ "RSSI_BLUEGIGA_ID", "abi__sender__ids_8h.html#af646ed1faa469ec469c3fd37b354b7db", null ],
     [ "THRUST_INCREMENT_ID", "abi__sender__ids_8h.html#aef2527d3e072d8a462222ec89d75727c", null ],
-    [ "UWB_COMM_ID", "abi__sender__ids_8h.html#a0767ff0c7d6c1b310804a717b39b0ed3", null ]
+    [ "UWB_COMM_ID", "abi__sender__ids_8h.html#a0767ff0c7d6c1b310804a717b39b0ed3", null ],
+    [ "VEL_DRAGSPEED_ID", "abi__sender__ids_8h.html#afb7e35c059cecd94e6c59c0169ee1ebc", null ],
+    [ "VEL_OPTICFLOW_ID", "abi__sender__ids_8h.html#a188ba3cb3d1c77a4c98410bc1dc69c8b", null ],
+    [ "VEL_PX4FLOW_ID", "abi__sender__ids_8h.html#ae0e23da0e84c6db6de96556368dacae2", null ],
+    [ "VEL_STEREOCAM_ID", "abi__sender__ids_8h.html#aff6fe44212fb356543cca4463819483f", null ]
 ];

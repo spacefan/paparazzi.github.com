@@ -33,7 +33,7 @@ var searchData=
   ['vector_5fcross_5fproduct',['Vector_Cross_Product',['../ahrs__float__dcm__algebra_8h.html#acfdef0ee13b70a857c5b98cf98072fa3',1,'ahrs_float_dcm_algebra.h']]],
   ['vector_5fdot_5fproduct',['Vector_Dot_Product',['../ahrs__float__dcm__algebra_8h.html#abbc7df880bf45106d0b2fcc0f9ad7fde',1,'ahrs_float_dcm_algebra.h']]],
   ['vector_5fscale',['Vector_Scale',['../ahrs__float__dcm__algebra_8h.html#aa2ea17a2b7db25753df083f03cff1a33',1,'ahrs_float_dcm_algebra.h']]],
-  ['vel_5fest_5fcb',['vel_est_cb',['../ins__int_8c.html#aaf7a3cc82a863c682b5e9f18022c5ab7',1,'ins_int.c']]],
+  ['vel_5fest_5fcb',['vel_est_cb',['../ins__int_8c.html#ab7a554a8b8a96f387e80452251fc404f',1,'ins_int.c']]],
   ['verify_5fchk',['verify_chk',['../vn200__serial_8c.html#ae28fd86966eafa975b528e8253ccfe40',1,'vn200_serial.c']]],
   ['vertical_5fctrl_5fagl_5fcb',['vertical_ctrl_agl_cb',['../optical__flow__landing_8c.html#a3bcd862f437ba8c9b6f39ca5aab90b9e',1,'vertical_ctrl_agl_cb(uint8_t sender_id, float distance):&#160;optical_flow_landing.c'],['../vertical__ctrl__module__demo_8c.html#a3bcd862f437ba8c9b6f39ca5aab90b9e',1,'vertical_ctrl_agl_cb(uint8_t sender_id, float distance):&#160;vertical_ctrl_module_demo.c']]],
   ['vertical_5fctrl_5fmodule_5finit',['vertical_ctrl_module_init',['../optical__flow__landing_8c.html#a089aaff33040a49a6598aad79528dd1e',1,'vertical_ctrl_module_init(void):&#160;optical_flow_landing.c'],['../vertical__ctrl__module__demo_8c.html#a089aaff33040a49a6598aad79528dd1e',1,'vertical_ctrl_module_init(void):&#160;vertical_ctrl_module_demo.c']]],
@@ -92,7 +92,7 @@ var searchData=
   ['vn200_5fread_5fbuffer',['vn200_read_buffer',['../vn200__serial_8c.html#ab4e1d57f1c673bb4b96a74cdb9b63480',1,'vn200_serial.c']]],
   ['vn200_5fread_5fmessage',['vn200_read_message',['../vn200__serial_8c.html#a13f1a793a1a690aa4ff89764262c3644',1,'vn200_read_message(struct VNPacket *vn_packet, struct VNData *vn_data):&#160;vn200_serial.c'],['../vn200__serial_8h.html#aa4cd895820a675fad107561eeb9db803',1,'vn200_read_message(struct VNPacket *vnp, struct VNData *vndata):&#160;vn200_serial.c']]],
   ['vn200_5fyaw_5fpitch_5froll_5fto_5fattitude',['vn200_yaw_pitch_roll_to_attitude',['../vn200__serial_8c.html#a43111461bc87c4acc7776c1066392596',1,'vn200_serial.c']]],
-  ['vn_5fcalculate_5fcrc',['vn_calculate_crc',['../nps__ins__vectornav_8c.html#a45926adbd806a5dd48811978e7be6bc7',1,'nps_ins_vectornav.c']]],
+  ['vn_5fcalculate_5fcrc',['vn_calculate_crc',['../nps__ins__vectornav_8c.html#a527b04df60a1c78c212ce22604abfa7a',1,'nps_ins_vectornav.c']]],
   ['vn_5fget_5ftime_5fof_5fweek',['vn_get_time_of_week',['../nps__ins__vectornav_8c.html#af54cd3a3df5541a95a96ba9e66c7758a',1,'nps_ins_vectornav.c']]],
   ['vpoint',['vPoint',['../point_8c.html#a3317a3a368f54d6c89acfbbaa49b4ed2',1,'vPoint(float fPlaneEast, float fPlaneNorth, float fPlaneAltitude, float fRollAngle, float fPitchAngle, float fYawAngle, float fObjectEast, float fObjectNorth, float fAltitude, float *fPan, float *fTilt):&#160;point.c'],['../point_8h.html#a3317a3a368f54d6c89acfbbaa49b4ed2',1,'vPoint(float fPlaneEast, float fPlaneNorth, float fPlaneAltitude, float fRollAngle, float fPitchAngle, float fYawAngle, float fObjectEast, float fObjectNorth, float fAltitude, float *fPan, float *fTilt):&#160;point.c']]],
   ['vsubtractvectors',['vSubtractVectors',['../point_8c.html#a553fdfb308cb850023076e6a58842796',1,'point.c']]]

@@ -43,7 +43,7 @@
 <area shape="rect" id="node43" href="$mag__calib__ukf_8c.html#ae7d76e150aae78dee055b5155d7c5af0" title="Callback function run for every new mag measurement. " alt="" coords="480,1065,621,1092"/>
 <area shape="rect" id="node45" href="$mavlink_8c.html#a6a99bc39299168db89d0b0ad07375cfb" title="mavlink_send_attitude\l_quaternion" alt="" coords="467,1117,634,1158"/>
 <area shape="rect" id="node48" href="$wind__estimator_8h.html#a0a4f52d63873704d3581f69f44d71751" title="wind_estimator_periodic" alt="" coords="463,1183,639,1209"/>
-<area shape="rect" id="node49" href="$ins__int_8c.html#aaf7a3cc82a863c682b5e9f18022c5ab7" title="vel_est_cb" alt="" coords="506,1233,595,1260"/>
+<area shape="rect" id="node49" href="$ins__int_8c.html#ab7a554a8b8a96f387e80452251fc404f" title="vel_est_cb" alt="" coords="506,1233,595,1260"/>
 <area shape="rect" id="node44" href="$mag__calib__ukf_8h.html#a0398977c266b1abac931ff429ee2ffb8" title="mag_calib_ukf_init" alt="" coords="723,1065,862,1092"/>
 <area shape="rect" id="node46" href="$mavlink_8h.html#acc676450794df9b4b50dc6b12995b7a1" title="Module functions. " alt="" coords="744,1120,841,1147"/>
 <area shape="rect" id="node47" href="$mavlink_8h.html#a45dcaed78c022158e7dcfb92813f191c" title="Periodic MAVLink calls. " alt="" coords="729,1171,857,1197"/>

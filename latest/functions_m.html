@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -336,6 +336,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="guidance__h__ref_8h.html#aaa99c6c22c0cdef42cea1399ade9191b">GuidanceHRef</a>
 , <a class="el" href="attitude__ref__saturate__naive_8h.html#afe51c837ecd079fc1351d3ea8c15865b">Int32RefSat</a>
 </li>
+<li>max_ang_momentum
+: <a class="el" href="nps__fdm__gazebo_8cpp.html#a72e31f68945bafa99608f9a60031f674">gazebo_actuators_t</a>
+</li>
 <li>max_inc
 : <a class="el" href="delayed__first__order__lowpass__filter_8h.html#ac753192adc4c86378b001e3f6948e565">delayed_first_order_lowpass_filter_t</a>
 </li>
@@ -455,6 +458,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>memmap
 : <a class="el" href="lpcSCB_8h.html#a10cbe3da1bfffec8627f5a911b9868f3">scbRegs_t</a>
+</li>
+<li>message_ready
+: <a class="el" href="gec__dl_8h.html#a086826a1a8153de6f0b7d99db450b55a">message_buffer</a>
 </li>
 <li>method
 : <a class="el" href="opticflow__calculator_8h.html#af6d3597927c49a82adb5fac801f1bfb5">opticflow_t</a>
@@ -597,7 +603,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="lpcTMR_8h.html#aff2013d751349a6399aecdd42933a7e8">pwmTmrRegs_t</a>
 </li>
 <li>msg
-: <a class="el" href="structmavlink__msg__req.html#a7d455d095228e29a9ef984493d0e2e58">mavlink_msg_req</a>
+: <a class="el" href="jevois_8c.html#aa732f610bb8788850bd724b858013382">jevois_t</a>
+, <a class="el" href="structmavlink__msg__req.html#a7d455d095228e29a9ef984493d0e2e58">mavlink_msg_req</a>
+, <a class="el" href="gec__dl_8h.html#a7342f8b7f46cde384d90407193c5ecdf">message_buffer</a>
 </li>
 <li>msg_available
 : <a class="el" href="esc32_8c.html#afc749feec069d178f64878332eb16c0b">esc32_private</a>
@@ -710,6 +718,12 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="ins__float__invariant_8h.html#af54f77151bd96f0a6473bd63d5401a7a">inv_gains</a>
 , <a class="el" href="navdata_8h.html#ac840d1fe77ec0562d0712e91e910460b">navdata_measure_t</a>
 </li>
+<li>my_private_ephemeral
+: <a class="el" href="gec_8h.html#a25f91fa0a5be45af7596f0b5d8307dc5">gec_sts_ctx</a>
+</li>
+<li>my_private_key
+: <a class="el" href="gec_8h.html#afd0b95da892a2ce3cdc0272139373d95">gec_sts_ctx</a>
+</li>
 <li>mz
 : <a class="el" href="ins__float__invariant_8h.html#a303a1e0603e603e2f7b00448739fc446">inv_gains</a>
 , <a class="el" href="navdata_8h.html#af9ae55176b3cc4ed467cda91feed838e">navdata_measure_t</a>
@@ -720,7 +734,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Nov 8 2017 10:03:13 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:03:20 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

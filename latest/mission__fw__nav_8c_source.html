@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -160,7 +160,7 @@ $(document).ready(function(){initNavTree('mission__fw__nav_8c_source.html','');}
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="comment">/* Update point */</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  point-&gt;<a class="code" href="pprz__geodetic__float_8h.html#a1477647029e175947a6bd860322c98ff">x</a> = <a class="code" href="common__nav_8c.html#a94e2a3864e1c0746e69eb9cda1061c62">waypoints</a>[WP_HOME].<a class="code" href="common__nav_8h.html#a8293fd2de3ce739deb6d53691fd21fcf">x</a> + dx;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  point-&gt;<a class="code" href="pprz__geodetic__float_8h.html#a03a1d7fc5e459dd6cbdb7893ef631dde">y</a> = <a class="code" href="common__nav_8c.html#a94e2a3864e1c0746e69eb9cda1061c62">waypoints</a>[WP_HOME].<a class="code" href="common__nav_8h.html#a616ad85a2096d1566f5971666bbc3b3f">y</a> + dy;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  point-&gt;<a class="code" href="pprz__geodetic__float_8h.html#af45d8ff67563a7c7bf0c7883aa0f3e3a">z</a> = lla-&gt;<a class="code" href="group__math__geodetic__int.html#a36aa60e58a828880951718db39c227f9">alt</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  point-&gt;<a class="code" href="pprz__geodetic__float_8h.html#af45d8ff67563a7c7bf0c7883aa0f3e3a">z</a> = lla_f.<a class="code" href="pprz__geodetic__float_8h.html#a03499a16d55f4a55a7c1d5fe7c86ff7b">alt</a>;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
@@ -295,7 +295,6 @@ $(document).ready(function(){initNavTree('mission__fw__nav_8c_source.html','');}
 <div class="ttc" id="mission__common_8h_html_struct__mission__circle"><div class="ttname"><a href="mission__common_8h.html#struct__mission__circle">_mission_circle</a></div><div class="ttdef"><b>Definition:</b> <a href="mission__common_8h_source.html#l00062">mission_common.h:62</a></div></div>
 <div class="ttc" id="mission__common_8h_html_a5cd11591589d3e29a2e274aa383e5432"><div class="ttname"><a href="mission__common_8h.html#a5cd11591589d3e29a2e274aa383e5432">_mission_path::path</a></div><div class="ttdeci">union _mission_path::@288 path</div></div>
 <div class="ttc" id="mission__common_8h_html_ad78889dcc9108232f7bcb31278e83615"><div class="ttname"><a href="mission__common_8h.html#ad78889dcc9108232f7bcb31278e83615">_mission_segment::from</a></div><div class="ttdeci">union _mission_segment::@286 from</div></div>
-<div class="ttc" id="group__math__geodetic__int_html_a36aa60e58a828880951718db39c227f9"><div class="ttname"><a href="group__math__geodetic__int.html#a36aa60e58a828880951718db39c227f9">LlaCoor_i::alt</a></div><div class="ttdeci">int32_t alt</div><div class="ttdoc">in millimeters above WGS84 reference ellipsoid </div><div class="ttdef"><b>Definition:</b> <a href="pprz__geodetic__int_8h_source.html#l00062">pprz_geodetic_int.h:62</a></div></div>
 <div class="ttc" id="mission__common_8h_html_adbdcb7731edcc16faff5ca23741bcead"><div class="ttname"><a href="mission__common_8h.html#adbdcb7731edcc16faff5ca23741bcead">_mission_segment::to</a></div><div class="ttdeci">union _mission_segment::@287 to</div></div>
 <div class="ttc" id="mission__common_8h_html_a7813023e235161bb33a4aac1213f7723"><div class="ttname"><a href="mission__common_8h.html#a7813023e235161bb33a4aac1213f7723">_mission::element_time</a></div><div class="ttdeci">float element_time</div><div class="ttdoc">time in second spend in the current element </div><div class="ttdef"><b>Definition:</b> <a href="mission__common_8h_source.html#l00116">mission_common.h:116</a></div></div>
 <div class="ttc" id="pprz__geodetic__float_8h_html_structLlaCoor__f"><div class="ttname"><a href="pprz__geodetic__float_8h.html#structLlaCoor__f">LlaCoor_f</a></div><div class="ttdoc">vector in Latitude, Longitude and Altitude </div><div class="ttdef"><b>Definition:</b> <a href="pprz__geodetic__float_8h_source.html#l00054">pprz_geodetic_float.h:54</a></div></div>
@@ -314,6 +313,7 @@ $(document).ready(function(){initNavTree('mission__fw__nav_8c_source.html','');}
 <div class="ttc" id="pprz__geodetic__float_8h_html_a86adc8b9ebb389f4716c6c569a0b5d91"><div class="ttname"><a href="pprz__geodetic__float_8h.html#a86adc8b9ebb389f4716c6c569a0b5d91">UtmCoor_f::zone</a></div><div class="ttdeci">uint8_t zone</div><div class="ttdoc">UTM zone number. </div><div class="ttdef"><b>Definition:</b> <a href="pprz__geodetic__float_8h_source.html#l00085">pprz_geodetic_float.h:85</a></div></div>
 <div class="ttc" id="nav_8h_html_af95d040500e23a05d6b095662fb18b59"><div class="ttname"><a href="nav_8h.html#af95d040500e23a05d6b095662fb18b59">NavVerticalAutoThrottleMode</a></div><div class="ttdeci">#define NavVerticalAutoThrottleMode(_pitch)</div><div class="ttdoc">Set the climb control to auto-throttle with the specified pitch pre-command. </div><div class="ttdef"><b>Definition:</b> <a href="nav_8h_source.html#l00170">nav.h:170</a></div></div>
 <div class="ttc" id="nav_8c_html_ab4247c9f3dc0417690e1404add032cbe"><div class="ttname"><a href="nav_8c.html#ab4247c9f3dc0417690e1404add032cbe">nav_route_xy</a></div><div class="ttdeci">void nav_route_xy(float last_wp_x, float last_wp_y, float wp_x, float wp_y)</div><div class="ttdoc">Computes the carrot position along the desired segment. </div><div class="ttdef"><b>Definition:</b> <a href="nav_8c_source.html#l00381">nav.c:381</a></div></div>
+<div class="ttc" id="pprz__geodetic__float_8h_html_a03499a16d55f4a55a7c1d5fe7c86ff7b"><div class="ttname"><a href="pprz__geodetic__float_8h.html#a03499a16d55f4a55a7c1d5fe7c86ff7b">LlaCoor_f::alt</a></div><div class="ttdeci">float alt</div><div class="ttdoc">in meters (normally above WGS84 reference ellipsoid) </div><div class="ttdef"><b>Definition:</b> <a href="pprz__geodetic__float_8h_source.html#l00057">pprz_geodetic_float.h:57</a></div></div>
 <div class="ttc" id="autopilot_8h_html"><div class="ttname"><a href="autopilot_8h.html">autopilot.h</a></div><div class="ttdoc">Core autopilot interface common to all firmwares. </div></div>
 <div class="ttc" id="mission__fw__nav_8c_html_a77c170761e804706933b8eccce1e93ea"><div class="ttname"><a href="mission__fw__nav_8c.html#a77c170761e804706933b8eccce1e93ea">mission_run</a></div><div class="ttdeci">int mission_run()</div><div class="ttdoc">Run mission. </div><div class="ttdef"><b>Definition:</b> <a href="mission__fw__nav_8c_source.html#l00142">mission_fw_nav.c:142</a></div></div>
 <div class="ttc" id="mission__common_8h_html_ac3842228fbc0e47bdbd166b7ae87c05f"><div class="ttname"><a href="mission__common_8h.html#ac3842228fbc0e47bdbd166b7ae87c05f">_mission_circle::center</a></div><div class="ttdeci">union _mission_circle::@285 center</div></div>
@@ -346,7 +346,7 @@ $(document).ready(function(){initNavTree('mission__fw__nav_8c_source.html','');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_c2abcdd6ccb39c3582929c0e3f5651c2.html">modules</a></li><li class="navelem"><a class="el" href="dir_6eed4cd5dc7f8396232b71b94973ca94.html">mission</a></li><li class="navelem"><a class="el" href="mission__fw__nav_8c.html">mission_fw_nav.c</a></li>
-    <li class="footer">Generated on Wed Nov 8 2017 10:01:43 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:01:53 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

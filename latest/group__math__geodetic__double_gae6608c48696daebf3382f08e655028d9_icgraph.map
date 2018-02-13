@@ -45,7 +45,7 @@
 <area shape="rect" id="node37" href="$group__state__position.html#gac1b41866b307723e3ad8ddd566d4f627" title="Get position in local NED coordinates (float). " alt="" coords="582,756,747,783"/>
 <area shape="rect" id="node39" href="$group__state__position.html#ga545d479db45e1a9711e59736b6d1309b" title="Get position in local ENU coordinates (float). " alt="" coords="583,807,746,833"/>
 <area shape="rect" id="node41" href="$ins__float__invariant__wrapper_8h.html#abd4f3b0fcceec4de92a1ad9a7653c6f3" title="ins_float_invariant\l_wrapper_init" alt="" coords="596,858,733,899"/>
-<area shape="rect" id="node45" href="$nps__fdm__jsbsim_8cpp.html#a17ec5b69b110d046f9db5b67d2b08779" title="Set JSBsim specific fields that are not used for Gazebo. " alt="" coords="388,959,491,985"/>
+<area shape="rect" id="node45" href="$nps__fdm__jsbsim_8cpp.html#a17ec5b69b110d046f9db5b67d2b08779" title="Initialize actuator dynamics, set unused fields in fdm. " alt="" coords="388,959,491,985"/>
 <area shape="rect" id="node46" href="$nps__main__common_8c.html#a92aad3720fb482042b695d66e633699a" title="nps_main_init" alt="" coords="609,959,720,985"/>
 <area shape="rect" id="node48" href="$nps__fdm__crrcsim_8c.html#a17ec5b69b110d046f9db5b67d2b08779" title="nps_fdm_init" alt="" coords="388,1009,491,1036"/>
 </map>

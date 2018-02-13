@@ -1,9 +1,9 @@
 <map id="sw/airborne/firmwares/rotorcraft/autopilot_utils.h" name="sw/airborne/firmwares/rotorcraft/autopilot_utils.h">
 <area shape="rect" id="node2" href="$autopilot_8h.html" title="Core autopilot interface common to all firmwares. " alt="" coords="3987,109,4153,136"/>
-<area shape="rect" id="node25" href="$rotorcraft_2autopilot__utils_8c.html" title="Utility functions and includes for autopilots. " alt="" coords="8461,191,8623,247"/>
-<area shape="rect" id="node3" href="$sim__ap_8c.html" title="sw/airborne/arch/sim\l/sim_ap.c" alt="" coords="7914,199,8069,240"/>
-<area shape="rect" id="node4" href="$autopilot_8c.html" title="Core autopilot interface common to all firmwares. " alt="" coords="8093,206,8260,233"/>
-<area shape="rect" id="node5" href="$boards_2ardrone_2actuators_8c.html" title="Actuator driver for ardrone2 version. " alt="" coords="8285,199,8437,240"/>
+<area shape="rect" id="node25" href="$rotorcraft_2autopilot__utils_8c.html" title="Utility functions and includes for autopilots. " alt="" coords="8427,191,8588,247"/>
+<area shape="rect" id="node3" href="$sim__ap_8c.html" title="sw/airborne/arch/sim\l/sim_ap.c" alt="" coords="7879,199,8034,240"/>
+<area shape="rect" id="node4" href="$autopilot_8c.html" title="Core autopilot interface common to all firmwares. " alt="" coords="8059,206,8225,233"/>
+<area shape="rect" id="node5" href="$boards_2ardrone_2actuators_8c.html" title="Actuator driver for ardrone2 version. " alt="" coords="8250,199,8402,240"/>
 <area shape="rect" id="node6" href="$boards_2bebop_2actuators_8c.html" title="Actuator driver for the bebop and bebop 2. " alt="" coords="5,199,148,240"/>
 <area shape="rect" id="node7" href="$boards_2disco_2actuators_8c.html" title="Actuator driver for the disco. " alt="" coords="172,199,315,240"/>
 <area shape="rect" id="node8" href="$boards_2swing_2actuators_8c.html" title="Actuator driver for the swing. " alt="" coords="339,199,481,240"/>
@@ -24,7 +24,7 @@
 <area shape="rect" id="node23" href="$autopilot__guided_8c.html" title="Autopilot guided mode interface. " alt="" coords="3181,191,3343,247"/>
 <area shape="rect" id="node24" href="$rotorcraft_2autopilot__static_8c.html" title="Static autopilot implementation. " alt="" coords="3267,303,3428,359"/>
 <area shape="rect" id="node26" href="$guidance__flip_8c.html" title="Open Loop guidance for making a flip. " alt="" coords="3712,191,3873,247"/>
-<area shape="rect" id="node27" href="$guidance__indi_8c.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion Come to IROS2016 to learn more! ..." alt="" coords="3897,191,4059,247"/>
+<area shape="rect" id="node27" href="$guidance__indi_8c.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion. " alt="" coords="3897,191,4059,247"/>
 <area shape="rect" id="node28" href="$rotorcraft_2main__ap_8c.html" title="Rotorcraft main loop. " alt="" coords="4083,199,4244,240"/>
 <area shape="rect" id="node29" href="$navigation_8c.html" title="Rotorcraft navigation functions. " alt="" coords="3452,310,3619,351"/>
 <area shape="rect" id="node30" href="$navigation_8h.html" title="Rotorcraft navigation functions. " alt="" coords="3418,199,3586,240"/>
@@ -37,15 +37,15 @@
 <area shape="rect" id="node37" href="$generic__com_8c.html" title="sw/airborne/modules\l/com/generic_com.c" alt="" coords="5202,199,5357,240"/>
 <area shape="rect" id="node38" href="$optical__flow__landing_8c.html" title="This module implements optical flow landings in which the divergence is kept constant. " alt="" coords="5381,199,5567,240"/>
 <area shape="rect" id="node39" href="$mavlink_8c.html" title="Basic MAVLink datalink implementation. " alt="" coords="5591,199,5746,240"/>
-<area shape="rect" id="node40" href="$geo__mag_8c.html" title="Calculation of the Geomagnetic field vector from current location. " alt="" coords="5771,199,5932,240"/>
-<area shape="rect" id="node41" href="$glide__wing__lock_8c.html" title="sw/airborne/modules\l/glide_wing_lock/glide\l_wing_lock.c" alt="" coords="5957,191,6114,247"/>
-<area shape="rect" id="node42" href="$gsm_8c.html" title="sw/airborne/modules\l/gsm/gsm.c" alt="" coords="6138,199,6293,240"/>
-<area shape="rect" id="node43" href="$gvf_8c.html" title="sw/airborne/modules\l/guidance/gvf/gvf.c" alt="" coords="6317,199,6471,240"/>
-<area shape="rect" id="node44" href="$nav__survey__polygon__gvf_8c.html" title="sw/airborne/modules\l/guidance/gvf/nav/nav\l_survey_polygon_gvf.c" alt="" coords="6496,191,6660,247"/>
-<area shape="rect" id="node45" href="$guidance__opticflow__hover_8c.html" title="Optical&#45;flow based control for Linux based systems. " alt="" coords="6684,191,6883,247"/>
-<area shape="rect" id="node46" href="$hott__eam_8h.html" title="Graupner HOTT electric air module description. " alt="" coords="6906,199,7061,240"/>
-<area shape="rect" id="node47" href="$hott__gam_8h.html" title="sw/airborne/modules\l/hott/hott_gam.h" alt="" coords="7085,199,7239,240"/>
-<area shape="rect" id="node48" href="$led__safety__status_8c.html" title="Simple module to blink LEDs when battery voltage drops below a certain level, radio control is lost o..." alt="" coords="7264,199,7444,240"/>
-<area shape="rect" id="node49" href="$meteo__france__DAQ_8c.html" title="Communication module with the Data Acquisition board from Meteo France. " alt="" coords="7469,199,7677,240"/>
-<area shape="rect" id="node50" href="$mission__fw__nav_8c.html" title="mission navigation for fixedwing aircraft " alt="" coords="7701,199,7889,240"/>
+<area shape="rect" id="node40" href="$dcf_8c.html" title="sw/airborne/modules\l/dcf/dcf.c" alt="" coords="5770,199,5925,240"/>
+<area shape="rect" id="node41" href="$geo__mag_8c.html" title="Calculation of the Geomagnetic field vector from current location. " alt="" coords="5949,199,6111,240"/>
+<area shape="rect" id="node42" href="$glide__wing__lock_8c.html" title="sw/airborne/modules\l/glide_wing_lock/glide\l_wing_lock.c" alt="" coords="6135,191,6293,247"/>
+<area shape="rect" id="node43" href="$gsm_8c.html" title="sw/airborne/modules\l/gsm/gsm.c" alt="" coords="6317,199,6471,240"/>
+<area shape="rect" id="node44" href="$gvf_8c.html" title="sw/airborne/modules\l/guidance/gvf/gvf.c" alt="" coords="6495,199,6650,240"/>
+<area shape="rect" id="node45" href="$nav__survey__polygon__gvf_8c.html" title="sw/airborne/modules\l/guidance/gvf/nav/nav\l_survey_polygon_gvf.c" alt="" coords="6675,191,6839,247"/>
+<area shape="rect" id="node46" href="$guidance__opticflow__hover_8c.html" title="Optical&#45;flow based control for Linux based systems. " alt="" coords="6863,191,7061,247"/>
+<area shape="rect" id="node47" href="$hott__eam_8h.html" title="Graupner HOTT electric air module description. " alt="" coords="7085,199,7239,240"/>
+<area shape="rect" id="node48" href="$hott__gam_8h.html" title="sw/airborne/modules\l/hott/hott_gam.h" alt="" coords="7263,199,7418,240"/>
+<area shape="rect" id="node49" href="$led__safety__status_8c.html" title="Simple module to blink LEDs when battery voltage drops below a certain level, radio control is lost o..." alt="" coords="7443,199,7623,240"/>
+<area shape="rect" id="node50" href="$meteo__france__DAQ_8c.html" title="Communication module with the Data Acquisition board from Meteo France. " alt="" coords="7647,199,7855,240"/>
 </map>

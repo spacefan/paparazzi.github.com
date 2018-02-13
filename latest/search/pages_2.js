@@ -13,6 +13,7 @@ var searchData=
   ['control_5fenergyadaptive_20module',['control_energyadaptive module',['../module__control_energyadaptive.html',1,'onboard_modules']]],
   ['control_5fnew_20module',['control_new module',['../module__control_new.html',1,'onboard_modules']]],
   ['copilot_20module',['copilot module',['../module__copilot.html',1,'onboard_modules']]],
+  ['ctrl_5feffectiveness_5fscheduling_20module',['ctrl_effectiveness_scheduling module',['../module__ctrl_effectiveness_scheduling.html',1,'onboard_modules']]],
   ['ctrl_5fmodule_5fdemo_20module',['ctrl_module_demo module',['../module__ctrl_module_demo.html',1,'onboard_modules']]],
   ['current_5fsensor_20module',['current_sensor module',['../module__current_sensor.html',1,'onboard_modules']]],
   ['cv_5fblob_5flocator_20module',['cv_blob_locator module',['../module__cv_blob_locator.html',1,'onboard_modules']]],

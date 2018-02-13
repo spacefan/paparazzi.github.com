@@ -23,7 +23,7 @@
 <area shape="rect" id="node20" href="$rotorcraft_2guidance_2guidance__h_8h.html" title="Horizontal guidance for rotorcrafts. " alt="" coords="266,310,427,366"/>
 <area shape="rect" id="node21" href="$guidance__h__ref_8h.html" title="Reference generation for horizontal guidance. " alt="" coords="273,191,434,247"/>
 <area shape="rect" id="node22" href="$guidance__hybrid_8h.html" title="Guidance controllers (horizontal and vertical) for Hybrid UAV configurations. " alt="" coords="5593,310,5754,366"/>
-<area shape="rect" id="node23" href="$guidance__indi_8h.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion Come to ICRA2016 to learn more! ..." alt="" coords="1599,191,1761,247"/>
+<area shape="rect" id="node23" href="$guidance__indi_8h.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion. " alt="" coords="1599,191,1761,247"/>
 <area shape="rect" id="node24" href="$guidance__v__adapt_8c.html" title="Adaptation block of the vertical guidance. " alt="" coords="1785,191,1946,247"/>
 <area shape="rect" id="node25" href="$guidance__v__ref_8h.html" title="Reference generation for vertical guidance. " alt="" coords="1970,191,2131,247"/>
 <area shape="rect" id="node26" href="$attitude__ref__saturate__naive_8h.html" title="Naive attitude reference saturation. " alt="" coords="2155,191,2370,247"/>

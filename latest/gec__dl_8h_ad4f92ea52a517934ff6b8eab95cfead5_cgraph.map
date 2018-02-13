@@ -1,0 +1,7 @@
+<map id="gec_process_msg1" name="gec_process_msg1">
+<area shape="rect" id="node2" href="$gec_8c.html#ae873ba7cb08a84eb613be40101d266d2" title="Derive key material for both sender and receiver. " alt="" coords="220,5,400,32"/>
+<area shape="rect" id="node3" href="$gec__dl_8c.html#adf3f484f08b597fe3cd457b90247a155" title="Encapsulate message data (CRYPTO_BYTE . " alt="" coords="229,57,391,98"/>
+<area shape="rect" id="node5" href="$gec_8c.html#a7dabc3297585157dc9719ba30d72216d" title="Generate private and public key pairs for future use. " alt="" coords="199,123,421,149"/>
+<area shape="rect" id="node4" href="$gec__dl_8c.html#ac87d54ef04c6c233d25fdacb4d2013e2" title="Helper function to get the relevant transport struct. " alt="" coords="495,64,578,91"/>
+<area shape="rect" id="node6" href="$sim_2mcu__periph_2rng__arch_8c.html#a820694eb7a21338e91e79f50a3a241ea" title="rng_wait_and_get" alt="" coords="469,123,604,149"/>
+</map>

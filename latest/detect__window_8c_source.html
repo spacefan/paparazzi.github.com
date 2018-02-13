@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -160,8 +160,8 @@ $(document).ready(function(){initNavTree('detect__window_8c_source.html','');});
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  response = <a class="code" href="detect__window_8c.html#a7aa027192382c57d36c563c050324fcb">detect_window_sizes</a>((<a class="code" href="types_8h.html#aba7bc1797add20fe3efdf37ced1182c5">uint8_t</a> *)gray.<a class="code" href="image_8h.html#a4af7d619f8367a3e68fbfad265546011">buf</a>, (<a class="code" href="types_8h.html#a06896e8c53f721507066c079052171f8">uint32_t</a>)img-&gt;<a class="code" href="image_8h.html#aa3c13c99294ff126c4c019d5e799253e">w</a>, (<a class="code" href="types_8h.html#a06896e8c53f721507066c079052171f8">uint32_t</a>)img-&gt;<a class="code" href="image_8h.html#a8bcdc857e2b3c08194113808ca2af345">h</a>, coordinate, integral_image,</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                 <a class="code" href="detect__window_8h.html#a1e6b1b95eae98142b5d2e20943aebcad">MODE_BRIGHT</a>);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="kremlib_8h.html#a3cb9f0894fab1c8fbb0753c9c7c2a8d9">printf</a>(<span class="stringliteral">&quot;Coordinate: %d, %d\n&quot;</span>, coordinate[0], coordinate[1]);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <a class="code" href="kremlib_8h.html#a3cb9f0894fab1c8fbb0753c9c7c2a8d9">printf</a>(<span class="stringliteral">&quot;Response = %d\n&quot;</span>, response);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  printf(<span class="stringliteral">&quot;Coordinate: %d, %d\n&quot;</span>, coordinate[0], coordinate[1]);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  printf(<span class="stringliteral">&quot;Response = %d\n&quot;</span>, response);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <a class="code" href="image_8c.html#aa09d6434519478ba26eab12a96d600ba">image_free</a>(&amp;gray);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keywordflow">return</span> NULL; <span class="comment">// No new image was created</span></div>
@@ -476,7 +476,6 @@ $(document).ready(function(){initNavTree('detect__window_8c_source.html','');});
 <div class="ttc" id="detect__window_8c_html_a43d41976f62300cb900a8a43e0e1947e"><div class="ttname"><a href="detect__window_8c.html#a43d41976f62300cb900a8a43e0e1947e">get_sum_disparities</a></div><div class="ttdeci">uint32_t get_sum_disparities(uint16_t min_x, uint16_t min_y, uint16_t max_x, uint16_t max_y, uint32_t *integral_image, uint32_t image_width, uint32_t image_height)</div><div class="ttdef"><b>Definition:</b> <a href="detect__window_8c_source.html#l00221">detect_window.c:221</a></div></div>
 <div class="ttc" id="detect__window_8c_html_acd7643219a35e96f1dbd1a28a2c2237e"><div class="ttname"><a href="detect__window_8c.html#acd7643219a35e96f1dbd1a28a2c2237e">detect_window_init</a></div><div class="ttdeci">void detect_window_init(void)</div><div class="ttdef"><b>Definition:</b> <a href="detect__window_8c_source.html#l00039">detect_window.c:39</a></div></div>
 <div class="ttc" id="image_8h_html_af039c7afe08a5eb2cff06e357227cdb8a6d97e6c2ad43721a212d52ec806261d3"><div class="ttname"><a href="image_8h.html#af039c7afe08a5eb2cff06e357227cdb8a6d97e6c2ad43721a212d52ec806261d3">IMAGE_GRAYSCALE</a></div><div class="ttdoc">Grayscale image with only the Y part (uint8 per pixel) </div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00037">image.h:37</a></div></div>
-<div class="ttc" id="kremlib_8h_html_a3cb9f0894fab1c8fbb0753c9c7c2a8d9"><div class="ttname"><a href="kremlib_8h.html#a3cb9f0894fab1c8fbb0753c9c7c2a8d9">printf</a></div><div class="ttdeci">#define printf</div><div class="ttdef"><b>Definition:</b> <a href="kremlib_8h_source.html#l00242">kremlib.h:242</a></div></div>
 <div class="ttc" id="detect__window_8h_html"><div class="ttname"><a href="detect__window_8h.html">detect_window.h</a></div><div class="ttdoc">Detect a bright region surrounded by dark or viceversa - sometimes this corresponds to a window...</div></div>
 <div class="ttc" id="detect__window_8c_html_a5e92fb9bd0ce39a8775e7e98a0a987ec"><div class="ttname"><a href="detect__window_8c.html#a5e92fb9bd0ce39a8775e7e98a0a987ec">get_avg_disparity</a></div><div class="ttdeci">uint32_t get_avg_disparity(uint16_t min_x, uint16_t min_y, uint16_t max_x, uint16_t max_y, uint32_t *integral_image, uint32_t image_width, uint32_t image_height)</div><div class="ttdef"><b>Definition:</b> <a href="detect__window_8c_source.html#l00233">detect_window.c:233</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -485,7 +484,7 @@ $(document).ready(function(){initNavTree('detect__window_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_c2abcdd6ccb39c3582929c0e3f5651c2.html">modules</a></li><li class="navelem"><a class="el" href="dir_304e79c9f5d09ea65a2f55aafb6a6b9d.html">computer_vision</a></li><li class="navelem"><a class="el" href="detect__window_8c.html">detect_window.c</a></li>
-    <li class="footer">Generated on Wed Nov 8 2017 10:01:36 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:01:46 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

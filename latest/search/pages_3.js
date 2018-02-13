@@ -10,6 +10,8 @@ var searchData=
   ['digital_5fcam_5fuart_20module',['digital_cam_uart module',['../module__digital_cam_uart.html',1,'onboard_modules']]],
   ['digital_5fcam_5fvideo_20module',['digital_cam_video module',['../module__digital_cam_video.html',1,'onboard_modules']]],
   ['direct_5fmemory_5flogger_20module',['direct_memory_logger module',['../module__direct_memory_logger.html',1,'onboard_modules']]],
+  ['distributed_5fcircular_5fformation_20module',['distributed_circular_formation module',['../module__distributed_circular_formation.html',1,'onboard_modules']]],
+  ['dragspeed_20module',['dragspeed module',['../module__dragspeed.html',1,'onboard_modules']]],
   ['drop_5fzone_20module',['drop_zone module',['../module__drop_zone.html',1,'onboard_modules']]],
   ['dust_5fgp2y_20module',['dust_gp2y module',['../module__dust_gp2y.html',1,'onboard_modules']]],
   ['dw1000_5farduino_20module',['dw1000_arduino module',['../module__dw1000_arduino.html',1,'onboard_modules']]],

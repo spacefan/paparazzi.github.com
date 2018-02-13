@@ -1,0 +1,16 @@
+<map id="gec_transport_init" name="gec_transport_init">
+<area shape="rect" id="node2" href="$gec__dl_8c.html#a37c9b07de8857965423dc29900c8e871" title="Check that there is enought space in the buffer. " alt="" coords="393,107,560,133"/>
+<area shape="rect" id="node4" href="$gec__dl_8c.html#a04d60d62265b9045d79e209fab183e0f" title="Call the underlying transport. " alt="" coords="427,157,527,184"/>
+<area shape="rect" id="node5" href="$gec__dl_8c.html#a6500d42ed62ebc4b21e4515255df214c" title="Get bytes from the message buffer (SENDER_ID . " alt="" coords="212,411,324,437"/>
+<area shape="rect" id="node9" href="$gec__dl_8c.html#a4a443ae413db37d824272314679e3599" title="gec_add_to_whitelist" alt="" coords="191,461,345,488"/>
+<area shape="rect" id="node10" href="$gec__dl_8c.html#a5a8387003cfd3646d37b6fc340777a72" title="Report to the underlying transport. " alt="" coords="441,5,512,32"/>
+<area shape="rect" id="node11" href="$gec__dl_8c.html#a0403c78730bb866318b47233c203d64d" title="Simply put bytes in the message buffer. " alt="" coords="225,309,311,336"/>
+<area shape="rect" id="node13" href="$gec__dl_8c.html#abc4dda4108a3f2fceda7216f9f54b2a8" title="put_named_byte" alt="" coords="203,259,333,285"/>
+<area shape="rect" id="node14" href="$gec__dl_8c.html#a18bc7ed9bc1173ba3e2da064f1da4420" title="Return the length of a regular pprzlink message (PPRZ_STX . " alt="" coords="235,56,301,83"/>
+<area shape="rect" id="node15" href="$gec__dl_8c.html#a2f41d7bc0f28e0bb34697b26c44d5a22" title="Just reset the message data. " alt="" coords="209,208,327,235"/>
+<area shape="rect" id="node3" href="$gec__dl_8c.html#ac87d54ef04c6c233d25fdacb4d2013e2" title="Helper function to get the relevant transport struct. " alt="" coords="648,208,731,235"/>
+<area shape="rect" id="node6" href="$gec__dl_8c.html#adf3f484f08b597fe3cd457b90247a155" title="Encapsulate message data (CRYPTO_BYTE . " alt="" coords="396,462,557,503"/>
+<area shape="rect" id="node7" href="$gec__dl_8c.html#a8c6d09d32fcf909597a36b36a07f9db0" title="Attempts message encryption Adds crypto_byte, counter and tag Assumes that the first two bytes of &#39;pa..." alt="" coords="393,528,560,555"/>
+<area shape="rect" id="node8" href="$gec__dl_8c.html#a47cb1fdb91e28f8c78d374c2bd3cf323" title="Convert counter to bytes in network byte order. " alt="" coords="608,528,771,555"/>
+<area shape="rect" id="node12" href="$gec__dl_8c.html#ad77bf8d1a98ce4634bfe6abdc621e8c7" title="Simply insert byte to the message buffer. " alt="" coords="430,309,523,336"/>
+</map>

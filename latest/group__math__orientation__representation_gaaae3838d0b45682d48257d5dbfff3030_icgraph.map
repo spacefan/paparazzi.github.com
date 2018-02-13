@@ -36,16 +36,16 @@
 <area shape="rect" id="node36" href="$stabilization__attitude__rc__setpoint_8h.html#a67c7c9ce5526222ceb3f422269fc8f47" title="stabilization_attitude\l_read_rc_setpoint_quat\l_earth_bound_f" alt="" coords="960,1704,1132,1760"/>
 <area shape="rect" id="node37" href="$stabilization__attitude__rc__setpoint_8h.html#a7e0d148d1e5210bb1b299163d77daa4a" title="Read attitude setpoint from RC as quaternion Interprets the stick positions as axes. " alt="" coords="955,1794,1137,1835"/>
 <area shape="rect" id="node38" href="$cam_8c.html#aab3da8ed719ee01699f50450b3df3b13" title="Computes the right angles from target_x, target_y, target_alt. " alt="" coords="517,1873,613,1900"/>
-<area shape="rect" id="node39" href="$mavlink_8c.html#acf9dbe1c46aa63331ca93c34f1a73a9a" title="Send the attitude. " alt="" coords="481,1924,648,1951"/>
-<area shape="rect" id="node40" href="$mavlink_8c.html#a69b29097db843b873c8b348c837cfd03" title="mavlink_send_global\l_position_int" alt="" coords="487,1975,642,2017"/>
-<area shape="rect" id="node41" href="$mavlink_8c.html#a8c8fd474a91b126a5f74296017672ddc" title="Send Metrics typically displayed on a HUD for fixed wing aircraft. " alt="" coords="483,2041,646,2068"/>
-<area shape="rect" id="node42" href="$dw1000__arduino_8h.html#abafdc9764fc8e346891fc6d215cc8d89" title="Reset reference heading to current heading AHRS/INS should be aligned before calling this function..." alt="" coords="468,2092,661,2119"/>
-<area shape="rect" id="node43" href="$dc_8h.html#aaf0625fed2e489322c40c4b2a1904e9a" title="Send Down the coordinates of where the photo was taken. " alt="" coords="481,2143,648,2169"/>
-<area shape="rect" id="node44" href="$dc_8h.html#ab4b5d12f3c9829a0f0e538496ad5c547" title="Send an info message. " alt="" coords="531,2193,598,2220"/>
-<area shape="rect" id="node45" href="$dc_8h.html#ac1d419ec639ffd43193ebcbd6e1131c0" title="Sets the dc control in circle mode. " alt="" coords="771,2219,849,2245"/>
-<area shape="rect" id="node46" href="$dc_8h.html#a2a976ddc273dfdd99eb8638c364e9305" title="periodic function " alt="" coords="517,2295,612,2321"/>
-<area shape="rect" id="node47" href="$gvf_8h.html#abb4d98f4686f18ac9111291ba7afda77" title="gvf_control_2D" alt="" coords="506,2345,623,2372"/>
-<area shape="rect" id="node48" href="$lidar__lite_8h.html#ad9de6c26f7a464d53a4aa70c65c944e6" title="Poll lidar for data for altitude hold 50Hz&#45;100Hz should be enough, in theory can go faster (see the d..." alt="" coords="499,161,631,188"/>
-<area shape="rect" id="node49" href="$lidar__sf11_8h.html#a48ad612bd4d1d65f27d60b5a578327f2" title="Poll lidar for data. " alt="" coords="495,212,635,239"/>
-<area shape="rect" id="node50" href="$logger__uart_8h.html#ab6b5fd6329c4581731f6ff29fdac97e2" title="logger_uart_periodic" alt="" coords="489,263,641,289"/>
+<area shape="rect" id="node39" href="$object__tracking_8h.html#abc55c61a0ead3db0d15a2939ec909fa4" title="run function " alt="" coords="491,1924,638,1951"/>
+<area shape="rect" id="node40" href="$mavlink_8c.html#acf9dbe1c46aa63331ca93c34f1a73a9a" title="Send the attitude. " alt="" coords="481,1975,648,2001"/>
+<area shape="rect" id="node41" href="$mavlink_8c.html#a69b29097db843b873c8b348c837cfd03" title="mavlink_send_global\l_position_int" alt="" coords="487,2026,642,2067"/>
+<area shape="rect" id="node42" href="$mavlink_8c.html#a8c8fd474a91b126a5f74296017672ddc" title="Send Metrics typically displayed on a HUD for fixed wing aircraft. " alt="" coords="483,2092,646,2119"/>
+<area shape="rect" id="node43" href="$dw1000__arduino_8h.html#abafdc9764fc8e346891fc6d215cc8d89" title="Reset reference heading to current heading AHRS/INS should be aligned before calling this function..." alt="" coords="468,2143,661,2169"/>
+<area shape="rect" id="node44" href="$dc_8h.html#aaf0625fed2e489322c40c4b2a1904e9a" title="Send Down the coordinates of where the photo was taken. " alt="" coords="481,2193,648,2220"/>
+<area shape="rect" id="node45" href="$dc_8h.html#ab4b5d12f3c9829a0f0e538496ad5c547" title="Send an info message. " alt="" coords="531,2244,598,2271"/>
+<area shape="rect" id="node46" href="$dc_8h.html#ac1d419ec639ffd43193ebcbd6e1131c0" title="Sets the dc control in circle mode. " alt="" coords="771,2269,849,2296"/>
+<area shape="rect" id="node47" href="$dc_8h.html#a2a976ddc273dfdd99eb8638c364e9305" title="periodic function " alt="" coords="517,2345,612,2372"/>
+<area shape="rect" id="node48" href="$dragspeed_8c.html#abeaf6ff173980a45c9b5e36a1834b8dc" title="Calibrate drag coefficient by comparing accelerometer measurements to INS velocities. " alt="" coords="507,161,622,188"/>
+<area shape="rect" id="node49" href="$dragspeed_8c.html#a633022ff064733c702ae49155480d81e" title="send_dragspeed" alt="" coords="501,212,629,239"/>
+<area shape="rect" id="node50" href="$gvf_8h.html#abb4d98f4686f18ac9111291ba7afda77" title="gvf_control_2D" alt="" coords="506,263,623,289"/>
 </map>

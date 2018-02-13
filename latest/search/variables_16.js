@@ -127,7 +127,7 @@ var searchData=
   ['vectcntl8',['vectCntl8',['../lpcVIC_8h.html#a7e64fbd4ff6dbe6f9a0c0b85e56dcb68',1,'vicRegs_t']]],
   ['vectcntl9',['vectCntl9',['../lpcVIC_8h.html#a607c63cc32645909d8bc2faa0ff6031e',1,'vicRegs_t']]],
   ['vehicle_5fradius_5fmax',['vehicle_radius_max',['../nps__fdm__jsbsim_8cpp.html#a0c5ecf9632b079a07fd998cda8581007',1,'nps_fdm_jsbsim.cpp']]],
-  ['vel',['vel',['../optical__flow__landing_8h.html#a61d4fee4543f010e70afb17d7d9530fa',1,'OpticalFlowLanding::vel()'],['../xsens700_8h.html#ab508ad0c01b5279d248dd65e5b123c79',1,'Xsens::vel()']]],
+  ['vel',['vel',['../optical__flow__landing_8h.html#a61d4fee4543f010e70afb17d7d9530fa',1,'OpticalFlowLanding::vel()'],['../dragspeed_8h.html#a4734a17c64ce93406891df73671bdf77',1,'dragspeed_t::vel()'],['../xsens700_8h.html#ab508ad0c01b5279d248dd65e5b123c79',1,'Xsens::vel()']]],
   ['vel_5fbody',['vel_body',['../inter__thread__data_8h.html#a88ce0e0601aabf3cd0c7bd46aa5e84e1',1,'opticflow_result_t::vel_body()'],['../vn200__serial_8h.html#a7a357314ce7a2f801671d46d72a40a7c',1,'VNData::vel_body()']]],
   ['vel_5fcam',['vel_cam',['../inter__thread__data_8h.html#ad1e55d0c93a8d49b789c09bda5e8f583',1,'opticflow_result_t']]],
   ['vel_5fecef_5fnode',['vel_ecef_node',['../gps__piksi_8c.html#ab49301f62ac878a5ffde24bf9760b8b9',1,'gps_piksi.c']]],

@@ -35,7 +35,7 @@
 <area shape="rect" id="node15" href="$mag__calib__ukf_8c.html#ae7d76e150aae78dee055b5155d7c5af0" title="Callback function run for every new mag measurement. " alt="" coords="935,208,1077,235"/>
 <area shape="rect" id="node16" href="$mavlink_8c.html#a6a99bc39299168db89d0b0ad07375cfb" title="mavlink_send_attitude\l_quaternion" alt="" coords="923,259,1089,301"/>
 <area shape="rect" id="node17" href="$wind__estimator_8h.html#a0a4f52d63873704d3581f69f44d71751" title="wind_estimator_periodic" alt="" coords="918,325,1094,352"/>
-<area shape="rect" id="node18" href="$ins__int_8c.html#aaf7a3cc82a863c682b5e9f18022c5ab7" title="vel_est_cb" alt="" coords="961,376,1051,403"/>
+<area shape="rect" id="node18" href="$ins__int_8c.html#ab7a554a8b8a96f387e80452251fc404f" title="vel_est_cb" alt="" coords="961,376,1051,403"/>
 <area shape="rect" id="node20" href="$ahrs__float__cmpl_8h.html#ad866a4c74ddf87b458a8cadc7a002ef2" title="ahrs_fc_update_gps" alt="" coords="1151,477,1301,504"/>
 <area shape="rect" id="node21" href="$ahrs__float__cmpl__wrapper_8c.html#a1c1656ce80fe1f1ad49fea691164dbf8" title="gps_cb" alt="" coords="1349,504,1416,531"/>
 <area shape="rect" id="node24" href="$ahrs__float__cmpl__wrapper_8c.html#ab5f6300c213088a4ea0598baafb5e736" title="body_to_imu_cb" alt="" coords="943,696,1069,723"/>

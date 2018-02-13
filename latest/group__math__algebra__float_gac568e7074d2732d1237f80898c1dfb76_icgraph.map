@@ -39,13 +39,13 @@
 <area shape="rect" id="node34" href="$stabilization__attitude__rc__setpoint_8h.html#a67c7c9ce5526222ceb3f422269fc8f47" title="stabilization_attitude\l_read_rc_setpoint_quat\l_earth_bound_f" alt="" coords="1399,1447,1571,1503"/>
 <area shape="rect" id="node35" href="$stabilization__attitude__rc__setpoint_8h.html#a7e0d148d1e5210bb1b299163d77daa4a" title="Read attitude setpoint from RC as quaternion Interprets the stick positions as axes. " alt="" coords="1393,1537,1576,1578"/>
 <area shape="rect" id="node36" href="$cam_8c.html#aab3da8ed719ee01699f50450b3df3b13" title="Computes the right angles from target_x, target_y, target_alt. " alt="" coords="959,1616,1055,1643"/>
-<area shape="rect" id="node37" href="$mavlink_8c.html#acf9dbe1c46aa63331ca93c34f1a73a9a" title="Send the attitude. " alt="" coords="924,1667,1091,1693"/>
-<area shape="rect" id="node38" href="$mavlink_8c.html#a69b29097db843b873c8b348c837cfd03" title="mavlink_send_global\l_position_int" alt="" coords="930,1718,1085,1759"/>
-<area shape="rect" id="node39" href="$mavlink_8c.html#a8c8fd474a91b126a5f74296017672ddc" title="Send Metrics typically displayed on a HUD for fixed wing aircraft. " alt="" coords="926,1784,1089,1811"/>
-<area shape="rect" id="node40" href="$dw1000__arduino_8h.html#abafdc9764fc8e346891fc6d215cc8d89" title="Reset reference heading to current heading AHRS/INS should be aligned before calling this function..." alt="" coords="911,1835,1104,1861"/>
-<area shape="rect" id="node41" href="$dc_8h.html#aaf0625fed2e489322c40c4b2a1904e9a" title="Send Down the coordinates of where the photo was taken. " alt="" coords="924,1885,1091,1912"/>
-<area shape="rect" id="node42" href="$dc_8h.html#ab4b5d12f3c9829a0f0e538496ad5c547" title="Send an info message. " alt="" coords="974,1987,1041,2013"/>
-<area shape="rect" id="node43" href="$dc_8h.html#ac1d419ec639ffd43193ebcbd6e1131c0" title="Sets the dc control in circle mode. " alt="" coords="1210,1961,1287,1988"/>
-<area shape="rect" id="node44" href="$dc_8h.html#a2a976ddc273dfdd99eb8638c364e9305" title="periodic function " alt="" coords="960,2037,1055,2064"/>
-<area shape="rect" id="node45" href="$gvf_8h.html#abb4d98f4686f18ac9111291ba7afda77" title="gvf_control_2D" alt="" coords="949,5,1066,32"/>
+<area shape="rect" id="node37" href="$object__tracking_8h.html#abc55c61a0ead3db0d15a2939ec909fa4" title="run function " alt="" coords="934,1667,1081,1693"/>
+<area shape="rect" id="node38" href="$mavlink_8c.html#acf9dbe1c46aa63331ca93c34f1a73a9a" title="Send the attitude. " alt="" coords="924,1717,1091,1744"/>
+<area shape="rect" id="node39" href="$mavlink_8c.html#a69b29097db843b873c8b348c837cfd03" title="mavlink_send_global\l_position_int" alt="" coords="930,1769,1085,1810"/>
+<area shape="rect" id="node40" href="$mavlink_8c.html#a8c8fd474a91b126a5f74296017672ddc" title="Send Metrics typically displayed on a HUD for fixed wing aircraft. " alt="" coords="926,1835,1089,1861"/>
+<area shape="rect" id="node41" href="$dw1000__arduino_8h.html#abafdc9764fc8e346891fc6d215cc8d89" title="Reset reference heading to current heading AHRS/INS should be aligned before calling this function..." alt="" coords="911,1885,1104,1912"/>
+<area shape="rect" id="node42" href="$dc_8h.html#aaf0625fed2e489322c40c4b2a1904e9a" title="Send Down the coordinates of where the photo was taken. " alt="" coords="924,1936,1091,1963"/>
+<area shape="rect" id="node43" href="$dc_8h.html#ab4b5d12f3c9829a0f0e538496ad5c547" title="Send an info message. " alt="" coords="974,2037,1041,2064"/>
+<area shape="rect" id="node44" href="$dc_8h.html#ac1d419ec639ffd43193ebcbd6e1131c0" title="Sets the dc control in circle mode. " alt="" coords="1210,2012,1287,2039"/>
+<area shape="rect" id="node45" href="$dc_8h.html#a2a976ddc273dfdd99eb8638c364e9305" title="periodic function " alt="" coords="960,5,1055,32"/>
 </map>

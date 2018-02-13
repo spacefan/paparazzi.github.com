@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -808,12 +808,12 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="max11040_8c.html#aa1bb45760662b5ca384304d42f5de290">max11040.c</a>
 , <a class="el" href="max11040_8h.html#aa1bb45760662b5ca384304d42f5de290">max11040.h</a>
 </li>
-<li>MAX11040_DATA
-: <a class="el" href="max11040_8h.html#ac5962d2388583ba5b929b1ad7a35fdaf">max11040.h</a>
-</li>
 <li>max11040_data
 : <a class="el" href="max11040_8c.html#a30b9388c5aaa51cfc6f6180e24511689">max11040.c</a>
 , <a class="el" href="max11040_8h.html#a30b9388c5aaa51cfc6f6180e24511689">max11040.h</a>
+</li>
+<li>MAX11040_DATA
+: <a class="el" href="max11040_8h.html#ac5962d2388583ba5b929b1ad7a35fdaf">max11040.h</a>
 </li>
 <li>MAX11040_DATA2
 : <a class="el" href="max11040_8h.html#a0288e7c5f6701799e508cb4cbf12e848">max11040.h</a>
@@ -3840,11 +3840,11 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 <li>MSD_IDLE
 : <a class="el" href="usb__msd_8h.html#af8cb4deefd2af9bde489fe8598e8aa96ab2dbda3078000a12ac7081c970d450c0">usb_msd.h</a>
 </li>
-<li>msd_read_command_block()
-: <a class="el" href="usb__msd_8c.html#aae86072280e1c9c74809a1657712bc8b">usb_msd.c</a>
-</li>
 <li>MSD_READ_COMMAND_BLOCK
 : <a class="el" href="usb__msd_8h.html#af8cb4deefd2af9bde489fe8598e8aa96a98979b5270ac73b425a1e8cb61756517">usb_msd.h</a>
+</li>
+<li>msd_read_command_block()
+: <a class="el" href="usb__msd_8c.html#aae86072280e1c9c74809a1657712bc8b">usb_msd.c</a>
 </li>
 <li>msd_register_evt_connected()
 : <a class="el" href="usb__msd_8c.html#a9ad360964cf29c17ffda4847ea88c2f3">usb_msd.c</a>
@@ -4003,6 +4003,33 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 <li>MSG11_SERIALNUMBER
 : <a class="el" href="imu__chimu_8h.html#a7f375da7f5dff0107dcfd3590ca8fbbc">imu_chimu.h</a>
 </li>
+<li>MSG1_ENCRYPT_ERROR
+: <a class="el" href="gec_8h.html#a9bb5b7264af11868fbe186511e439e9da5398d1bf4e78279a693da43d877df5d7">gec.h</a>
+</li>
+<li>MSG1_TIMEOUT_ERROR
+: <a class="el" href="gec_8h.html#a9bb5b7264af11868fbe186511e439e9da6b1f7907d634d78cf823ca9918b752b4">gec.h</a>
+</li>
+<li>MSG2_DECRYPT_ERROR
+: <a class="el" href="gec_8h.html#a9bb5b7264af11868fbe186511e439e9da63665f9c3dec8df0284285f8c41ffe27">gec.h</a>
+</li>
+<li>MSG2_SIGNVERIFY_ERROR
+: <a class="el" href="gec_8h.html#a9bb5b7264af11868fbe186511e439e9dac57fb1411be5cc4675aa5a3bca20cb6b">gec.h</a>
+</li>
+<li>MSG2_TIMEOUT_ERROR
+: <a class="el" href="gec_8h.html#a9bb5b7264af11868fbe186511e439e9dada5024938042ce8cbc87da59717cb922">gec.h</a>
+</li>
+<li>MSG3_DECRYPT_ERROR
+: <a class="el" href="gec_8h.html#a9bb5b7264af11868fbe186511e439e9da7aad1db898bd888f2f31635dfce945a4">gec.h</a>
+</li>
+<li>MSG3_ENCRYPT_ERROR
+: <a class="el" href="gec_8h.html#a9bb5b7264af11868fbe186511e439e9da076322b89c3963dab5050329b567394e">gec.h</a>
+</li>
+<li>MSG3_SIGNVERIFY_ERROR
+: <a class="el" href="gec_8h.html#a9bb5b7264af11868fbe186511e439e9da201a5f664204bd9657f0e7d3623ef4db">gec.h</a>
+</li>
+<li>MSG3_TIMEOUT_ERROR
+: <a class="el" href="gec_8h.html#a9bb5b7264af11868fbe186511e439e9da334ad2d406425d4cf2f6d88c01c9d1bf">gec.h</a>
+</li>
 <li>MSG_INTERMCU_COMMAND
 : <a class="el" href="link__mcu__usart_8c.html#afcd2324925c3c00ec94e426b12f7f80c">link_mcu_usart.c</a>
 </li>
@@ -4090,8 +4117,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 , <a class="el" href="msg__queue_8h.html#aac728799fec55bd850be4fbc674628a9">msg_queue.h</a>
 </li>
 <li>msgqueue_init()
-: <a class="el" href="msg__queue_8c.html#a8cbe13f6801caa6bd92498e5772eb3df">msg_queue.c</a>
-, <a class="el" href="msg__queue_8h.html#a8cbe13f6801caa6bd92498e5772eb3df">msg_queue.h</a>
+: <a class="el" href="msg__queue_8h.html#a8cbe13f6801caa6bd92498e5772eb3df">msg_queue.h</a>
+, <a class="el" href="msg__queue_8c.html#a8cbe13f6801caa6bd92498e5772eb3df">msg_queue.c</a>
 </li>
 <li>MsgQueue_INVALID_PTR
 : <a class="el" href="msg__queue_8h.html#af21955713d9e8a8e5ffcb337a33dfefcae598911369ed1e5b93e0d6074a9e5736">msg_queue.h</a>
@@ -4123,8 +4150,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="msg__queue_8h.html#a515d85b3345a7403ee1c9f4b8b5769fcacc844e0c7a5a368697a91aa4754b6923">msg_queue.h</a>
 </li>
 <li>msgqueue_pop()
-: <a class="el" href="msg__queue_8h.html#a6ddc872b801355fb65d98f18829419bd">msg_queue.h</a>
-, <a class="el" href="msg__queue_8c.html#a6ddc872b801355fb65d98f18829419bd">msg_queue.c</a>
+: <a class="el" href="msg__queue_8c.html#a6ddc872b801355fb65d98f18829419bd">msg_queue.c</a>
+, <a class="el" href="msg__queue_8h.html#a6ddc872b801355fb65d98f18829419bd">msg_queue.h</a>
 </li>
 <li>msgqueue_pop_timeout()
 : <a class="el" href="msg__queue_8c.html#a38dd61b3d9daa051032159c2473eb2cc">msg_queue.c</a>
@@ -4138,8 +4165,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 , <a class="el" href="msg__queue_8h.html#a6b457b8a24d51625e782035fe54622a7">msg_queue.h</a>
 </li>
 <li>msgqueue_send_timeout()
-: <a class="el" href="msg__queue_8c.html#aa9c85548b02609202975402ff7efcd64">msg_queue.c</a>
-, <a class="el" href="msg__queue_8h.html#aa9c85548b02609202975402ff7efcd64">msg_queue.h</a>
+: <a class="el" href="msg__queue_8h.html#aa9c85548b02609202975402ff7efcd64">msg_queue.h</a>
+, <a class="el" href="msg__queue_8c.html#aa9c85548b02609202975402ff7efcd64">msg_queue.c</a>
 </li>
 <li>msgqueue_strerror()
 : <a class="el" href="msg__queue_8c.html#a458fcde3b3a9e960d56fdc25b71a3c0f">msg_queue.c</a>
@@ -4152,9 +4179,9 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="msg__queue_8h.html#a515d85b3345a7403ee1c9f4b8b5769fc">msg_queue.h</a>
 </li>
 <li>mt9f002
-: <a class="el" href="bebop_2board_8c.html#a0a67664fafa1d9cbcc7deaa1352d1673">board.c</a>
+: <a class="el" href="disco_8h.html#a0a67664fafa1d9cbcc7deaa1352d1673">disco.h</a>
+, <a class="el" href="bebop_2board_8c.html#a0a67664fafa1d9cbcc7deaa1352d1673">board.c</a>
 , <a class="el" href="bebop_8h.html#a0a67664fafa1d9cbcc7deaa1352d1673">bebop.h</a>
-, <a class="el" href="disco_8h.html#a0a67664fafa1d9cbcc7deaa1352d1673">disco.h</a>
 </li>
 <li>MT9F002_ADDRESS
 : <a class="el" href="mt9f002__regs_8h.html#a85bdf24d1dbc1602a80a236cb32aad56">mt9f002_regs.h</a>
@@ -4583,8 +4610,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="mt9f002__regs_8h.html#a624296ab4ae0fe6f14abb3e3f3b46423">mt9f002_regs.h</a>
 </li>
 <li>mt9f002_init()
-: <a class="el" href="mt9f002_8c.html#a8f43c3ad8d5ff841d1203ab6c760c8f0">mt9f002.c</a>
-, <a class="el" href="mt9f002_8h.html#a8f43c3ad8d5ff841d1203ab6c760c8f0">mt9f002.h</a>
+: <a class="el" href="mt9f002_8h.html#a8f43c3ad8d5ff841d1203ab6c760c8f0">mt9f002.h</a>
+, <a class="el" href="mt9f002_8c.html#a8f43c3ad8d5ff841d1203ab6c760c8f0">mt9f002.c</a>
 </li>
 <li>MT9F002_INITIAL_OFFSET_X
 : <a class="el" href="mt9f002_8h.html#acac12807427e406cd1ece5a24d82a4af">mt9f002.h</a>
@@ -5957,8 +5984,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="mt9f002_8c.html#a938725d4136403996410307333abe9f7">mt9f002.c</a>
 </li>
 <li>mt9f002_set_resolution()
-: <a class="el" href="mt9f002_8c.html#ab56af0c2b794989ad4e1c4e112784588">mt9f002.c</a>
-, <a class="el" href="mt9f002_8h.html#ab56af0c2b794989ad4e1c4e112784588">mt9f002.h</a>
+: <a class="el" href="mt9f002_8h.html#ab56af0c2b794989ad4e1c4e112784588">mt9f002.h</a>
+, <a class="el" href="mt9f002_8c.html#ab56af0c2b794989ad4e1c4e112784588">mt9f002.c</a>
 </li>
 <li>MT9F002_SMIA_TEST
 : <a class="el" href="mt9f002__regs_8h.html#a8eb361accbca6ecbac7b8c80c413994c">mt9f002_regs.h</a>
@@ -6415,8 +6442,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="meteo__stick__calib_8h.html#a000cea9729040e12b6a515c57b08d1e2a235989ec0173b8b5afacba1ec55dbdd5">meteo_stick_calib.h</a>
 </li>
 <li>mtostk_get_calibrated_value()
-: <a class="el" href="meteo__stick__calib_8c.html#af16afd09b27900d3cda26d5fa578ee68">meteo_stick_calib.c</a>
-, <a class="el" href="meteo__stick__calib_8h.html#af16afd09b27900d3cda26d5fa578ee68">meteo_stick_calib.h</a>
+: <a class="el" href="meteo__stick__calib_8h.html#af16afd09b27900d3cda26d5fa578ee68">meteo_stick_calib.h</a>
+, <a class="el" href="meteo__stick__calib_8c.html#af16afd09b27900d3cda26d5fa578ee68">meteo_stick_calib.c</a>
 </li>
 <li>MTOSTK_HUMIDITY
 : <a class="el" href="meteo__stick__calib_8h.html#a000cea9729040e12b6a515c57b08d1e2ac14ccc9fb90d4c5dfd218421b48d1438">meteo_stick_calib.h</a>
@@ -6471,15 +6498,15 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="gps_8h.html#a397c5f9c39e3335eb3b77927925841ec">gps.h</a>
 </li>
 <li>multi_gps_mode
-: <a class="el" href="gps_8c.html#a00bcdc4a49e0e8f7ac48f2d77113f4bd">gps.c</a>
-, <a class="el" href="gps_8h.html#a00bcdc4a49e0e8f7ac48f2d77113f4bd">gps.h</a>
+: <a class="el" href="gps_8h.html#a00bcdc4a49e0e8f7ac48f2d77113f4bd">gps.h</a>
+, <a class="el" href="gps_8c.html#a00bcdc4a49e0e8f7ac48f2d77113f4bd">gps.c</a>
 </li>
 <li>mut
 : <a class="el" href="catia_8c.html#a61d8a205b71d88c28835fa36cfb254ac">catia.c</a>
 </li>
 <li>MUTEX_DECL()
-: <a class="el" href="wind__estimator_8c.html#a296f346fc4344c960544819b42e89dfe">wind_estimator.c</a>
-, <a class="el" href="chibios_2mcu__periph_2sys__time__arch_8c.html#ae4645504922c7d36a7f2171691ba26eb">sys_time_arch.c</a>
+: <a class="el" href="chibios_2mcu__periph_2sys__time__arch_8c.html#ae4645504922c7d36a7f2171691ba26eb">sys_time_arch.c</a>
+, <a class="el" href="wind__estimator_8c.html#a296f346fc4344c960544819b42e89dfe">wind_estimator.c</a>
 </li>
 <li>MY_ASSERT
 : <a class="el" href="pprz__debug_8h.html#a78ad58d87261accf641b594aed279329">pprz_debug.h</a>
@@ -6506,7 +6533,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Nov 8 2017 10:03:16 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:03:23 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

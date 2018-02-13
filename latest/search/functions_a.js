@@ -1,5 +1,11 @@
 var searchData=
 [
+  ['jevois_5fevent',['jevois_event',['../jevois_8c.html#a5a4dfc5cbbd1116c8e19483b683db8eb',1,'jevois_event(void):&#160;jevois.c'],['../jevois_8h.html#a5a4dfc5cbbd1116c8e19483b683db8eb',1,'jevois_event(void):&#160;jevois.c']]],
+  ['jevois_5finit',['jevois_init',['../jevois_8c.html#ae7c0a60712036dc7f1583b9954230c89',1,'jevois_init(void):&#160;jevois.c'],['../jevois_8h.html#ae7c0a60712036dc7f1583b9954230c89',1,'jevois_init(void):&#160;jevois.c']]],
+  ['jevois_5fparse',['jevois_parse',['../jevois_8c.html#a079a19f87529f4431d4aaba54a3f75db',1,'jevois.c']]],
+  ['jevois_5fsend_5fmessage',['jevois_send_message',['../jevois_8c.html#a316cc2f8606b1f3af8422e9f002b9fa9',1,'jevois.c']]],
+  ['jevois_5fsetmapping',['jevois_setmapping',['../jevois_8c.html#a0e47409eccd5ab805c0b20e07f80ab1d',1,'jevois_setmapping(int number):&#160;jevois.c'],['../jevois_8h.html#a0e47409eccd5ab805c0b20e07f80ab1d',1,'jevois_setmapping(int number):&#160;jevois.c']]],
+  ['jevois_5fstream',['jevois_stream',['../jevois_8c.html#a2e99fd57571cdb6cd8cbd0dc001a0d95',1,'jevois_stream(bool activate):&#160;jevois.c'],['../jevois_8h.html#a2e99fd57571cdb6cd8cbd0dc001a0d95',1,'jevois_stream(bool activate):&#160;jevois.c']]],
   ['jpeg_5fclose_5fbitstream',['jpeg_close_bitstream',['../jpeg_8c.html#a817a4e96b0d0c0e1251e2db08467c2a1',1,'jpeg.c']]],
   ['jpeg_5fcreate_5fsvs_5fheader',['jpeg_create_svs_header',['../jpeg_8c.html#af000b1ba8ec15e4044a5f68aafd42906',1,'jpeg_create_svs_header(unsigned char *jpegbuf, int32_t size, int w):&#160;jpeg.c'],['../jpeg_8h.html#a64f2550b4c98bfb1f9b4b28bff5b9285',1,'jpeg_create_svs_header(unsigned char *buf, int32_t size, int w):&#160;jpeg.c']]],
   ['jpeg_5fdct',['jpeg_DCT',['../jpeg_8c.html#a5b96ae28e2300858e6af3061ac8f96b9',1,'jpeg.c']]],

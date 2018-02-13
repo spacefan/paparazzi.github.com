@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -399,7 +399,7 @@ $(document).ready(function(){initNavTree('cv__blob__locator_8c_source.html','');
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <a class="code" href="types_8h.html#a273cf69d639a59973b6019625df33e30">uint16_t</a> y = temp &amp; 0x0000ffff;</div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    temp = temp &gt;&gt; 16;</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <a class="code" href="types_8h.html#a273cf69d639a59973b6019625df33e30">uint16_t</a> x = temp &amp; 0x0000ffff;</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <a class="code" href="kremlib_8h.html#a3cb9f0894fab1c8fbb0753c9c7c2a8d9">printf</a>(<span class="stringliteral">&quot;Found %d %d \n&quot;</span>, x, y);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    printf(<span class="stringliteral">&quot;Found %d %d \n&quot;</span>, x, y);</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <span class="keyword">struct </span><a class="code" href="cv__georeference_8h.html#structcamera__frame__t">camera_frame_t</a> cam;</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    cam.<a class="code" href="cv__georeference_8h.html#a2f01b0612a9d1fe822a392c66ed74bbe">px</a> = x / 2;</div>
@@ -515,7 +515,6 @@ $(document).ready(function(){initNavTree('cv__blob__locator_8c_source.html','');
 <div class="ttc" id="cv__blob__locator_8c_html_adbcec0bafce0688f1708beaf0b6e792a"><div class="ttname"><a href="cv__blob__locator_8c.html#adbcec0bafce0688f1708beaf0b6e792a">color_cb_min</a></div><div class="ttdeci">uint8_t color_cb_min</div><div class="ttdef"><b>Definition:</b> <a href="cv__blob__locator_8c_source.html#l00041">cv_blob_locator.c:41</a></div></div>
 <div class="ttc" id="cv__blob__locator_8c_html_a0625acc5c17262bca58f3055fcad6c29"><div class="ttname"><a href="cv__blob__locator_8c.html#a0625acc5c17262bca58f3055fcad6c29">cv_blob_locator_start</a></div><div class="ttdeci">void cv_blob_locator_start(void)</div><div class="ttdef"><b>Definition:</b> <a href="cv__blob__locator_8c_source.html#l00316">cv_blob_locator.c:316</a></div></div>
 <div class="ttc" id="imavmarker_8h_html"><div class="ttname"><a href="imavmarker_8h.html">imavmarker.h</a></div><div class="ttdoc">Find a IMAV pattern. </div></div>
-<div class="ttc" id="kremlib_8h_html_a3cb9f0894fab1c8fbb0753c9c7c2a8d9"><div class="ttname"><a href="kremlib_8h.html#a3cb9f0894fab1c8fbb0753c9c7c2a8d9">printf</a></div><div class="ttdeci">#define printf</div><div class="ttdef"><b>Definition:</b> <a href="kremlib_8h_source.html#l00242">kremlib.h:242</a></div></div>
 <div class="ttc" id="image_8h_html_af039c7afe08a5eb2cff06e357227cdb8aa19e189f53a1f2f6ad69169c68f56bba"><div class="ttname"><a href="image_8h.html#af039c7afe08a5eb2cff06e357227cdb8aa19e189f53a1f2f6ad69169c68f56bba">IMAGE_GRADIENT</a></div><div class="ttdoc">An image gradient (int16 per pixel) </div><div class="ttdef"><b>Definition:</b> <a href="image_8h_source.html#l00039">image.h:39</a></div></div>
 <div class="ttc" id="blob__finder_8c_html_a4394ddcfee7f3a3c1ff870b038b2883b"><div class="ttname"><a href="blob__finder_8c.html#a4394ddcfee7f3a3c1ff870b038b2883b">image_labeling</a></div><div class="ttdeci">void image_labeling(struct image_t *input, struct image_t *output, struct image_filter_t *filters, uint8_t filters_cnt, struct image_label_t *labels, uint16_t *labels_count)</div><div class="ttdef"><b>Definition:</b> <a href="blob__finder_8c_source.html#l00033">blob_finder.c:33</a></div></div>
 <div class="ttc" id="imavmarker_8c_html_aafa443822c1c72b0735f92c4656eb669"><div class="ttname"><a href="imavmarker_8c.html#aafa443822c1c72b0735f92c4656eb669">marker</a></div><div class="ttdeci">struct marker_deviation_t marker(struct image_t *input, uint8_t M)</div><div class="ttdef"><b>Definition:</b> <a href="imavmarker_8c_source.html#l00051">imavmarker.c:51</a></div></div>
@@ -528,7 +527,7 @@ $(document).ready(function(){initNavTree('cv__blob__locator_8c_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_c2abcdd6ccb39c3582929c0e3f5651c2.html">modules</a></li><li class="navelem"><a class="el" href="dir_304e79c9f5d09ea65a2f55aafb6a6b9d.html">computer_vision</a></li><li class="navelem"><a class="el" href="cv__blob__locator_8c.html">cv_blob_locator.c</a></li>
-    <li class="footer">Generated on Wed Nov 8 2017 10:01:36 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:01:46 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

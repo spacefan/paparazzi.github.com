@@ -9,6 +9,7 @@ var dir_1ca43f6a116d741d80fb1d0555a2b198 =
     [ "i2c.h", "i2c_8h.html", "i2c_8h" ],
     [ "pwm_input.c", "pwm__input_8c.html", "pwm__input_8c" ],
     [ "pwm_input.h", "pwm__input_8h.html", null ],
+    [ "rng.h", "rng_8h.html", "rng_8h" ],
     [ "sdio.h", "sdio_8h.html", "sdio_8h" ],
     [ "spi.c", "spi_8c.html", "spi_8c" ],
     [ "spi.h", "spi_8h.html", "spi_8h" ],

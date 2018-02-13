@@ -38,7 +38,7 @@
 <area shape="rect" id="node20" href="$median__filter_8h.html" title="sw/airborne/filters\l/median_filter.h" alt="" coords="766,199,901,240"/>
 <area shape="rect" id="node21" href="$rotorcraft_2guidance_2guidance__h_8h.html" title="Horizontal guidance for rotorcrafts. " alt="" coords="202,310,363,366"/>
 <area shape="rect" id="node23" href="$guidance__hybrid_8h.html" title="Guidance controllers (horizontal and vertical) for Hybrid UAV configurations. " alt="" coords="1110,191,1271,247"/>
-<area shape="rect" id="node24" href="$guidance__indi_8h.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion Come to ICRA2016 to learn more! ..." alt="" coords="2871,191,3033,247"/>
+<area shape="rect" id="node24" href="$guidance__indi_8h.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion. " alt="" coords="2871,191,3033,247"/>
 <area shape="rect" id="node25" href="$guidance__v__adapt_8c.html" title="Adaptation block of the vertical guidance. " alt="" coords="925,191,1086,247"/>
 <area shape="rect" id="node27" href="$attitude__ref__saturate__naive_8h.html" title="Naive attitude reference saturation. " alt="" coords="2633,191,2847,247"/>
 <area shape="rect" id="node28" href="$rotorcraft_2stabilization_2stabilization__attitude_8h.html" title="General attitude stabilization interface for rotorcrafts. " alt="" coords="2193,310,2364,366"/>

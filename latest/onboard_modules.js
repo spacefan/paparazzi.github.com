@@ -512,6 +512,12 @@ var onboard_modules =
         [ "Raw trig_test.xml file:", "module__trig_test.html#module_xml__trig_test", null ]
       ] ]
     ] ],
+    [ "ctrl_effectiveness_scheduling module", "module__ctrl_effectiveness_scheduling.html", [
+      [ "Example for airframe file", "module__ctrl_effectiveness_scheduling.html#module_load_example__ctrl_effectiveness_scheduling", null ],
+      [ "Module functions", "module__ctrl_effectiveness_scheduling.html#functions__ctrl_effectiveness_scheduling", [
+        [ "Raw ctrl_effectiveness_scheduling.xml file:", "module__ctrl_effectiveness_scheduling.html#module_xml__ctrl_effectiveness_scheduling", null ]
+      ] ]
+    ] ],
     [ "ctrl_module_demo module", "module__ctrl_module_demo.html", [
       [ "Example for airframe file", "module__ctrl_module_demo.html#module_load_example__ctrl_module_demo", [
         [ "Raw ctrl_module_demo.xml file:", "module__ctrl_module_demo.html#module_xml__ctrl_module_demo", null ]
@@ -521,6 +527,13 @@ var onboard_modules =
       [ "Example for airframe file", "module__gain_scheduling.html#module_load_example__gain_scheduling", null ],
       [ "Module functions", "module__gain_scheduling.html#functions__gain_scheduling", [
         [ "Raw gain_scheduling.xml file:", "module__gain_scheduling.html#module_xml__gain_scheduling", null ]
+      ] ]
+    ] ],
+    [ "object_tracking module", "module__object_tracking.html", [
+      [ "Example for airframe file", "module__object_tracking.html#module_load_example__object_tracking", null ],
+      [ "Module configuration options", "module__object_tracking.html#configuration__object_tracking", null ],
+      [ "Module functions", "module__object_tracking.html#functions__object_tracking", [
+        [ "Raw object_tracking.xml file:", "module__object_tracking.html#module_xml__object_tracking", null ]
       ] ]
     ] ],
     [ "optical_flow_landing module", "module__optical_flow_landing.html", [
@@ -583,6 +596,19 @@ var onboard_modules =
         [ "Raw telemetry_nps.xml file:", "module__telemetry_nps.html#module_xml__telemetry_nps", null ]
       ] ]
     ] ],
+    [ "telemetry_nps_secure module", "module__telemetry_nps_secure.html", [
+      [ "Example for airframe file", "module__telemetry_nps_secure.html#module_load_example__telemetry_nps_secure", null ],
+      [ "Module configuration options", "module__telemetry_nps_secure.html#configuration__telemetry_nps_secure", [
+        [ "Raw telemetry_nps_secure.xml file:", "module__telemetry_nps_secure.html#module_xml__telemetry_nps_secure", null ]
+      ] ]
+    ] ],
+    [ "telemetry_secure_common module", "module__telemetry_secure_common.html", [
+      [ "Example for airframe file", "module__telemetry_secure_common.html#module_load_example__telemetry_secure_common", null ],
+      [ "Module configuration options", "module__telemetry_secure_common.html#configuration__telemetry_secure_common", null ],
+      [ "Auto-loaded modules", "module__telemetry_secure_common.html#autoloads__telemetry_secure_common", [
+        [ "Raw telemetry_secure_common.xml file:", "module__telemetry_secure_common.html#module_xml__telemetry_secure_common", null ]
+      ] ]
+    ] ],
     [ "telemetry_sim module", "module__telemetry_sim.html", [
       [ "Example for airframe file", "module__telemetry_sim.html#module_load_example__telemetry_sim", null ],
       [ "Module functions", "module__telemetry_sim.html#functions__telemetry_sim", [
@@ -604,12 +630,11 @@ var onboard_modules =
         [ "Raw telemetry_transparent.xml file:", "module__telemetry_transparent.html#module_xml__telemetry_transparent", null ]
       ] ]
     ] ],
-    [ "telemetry_transparent_secure module", "module__telemetry_transparent_secure.html", [
-      [ "Example for airframe file", "module__telemetry_transparent_secure.html#module_load_example__telemetry_transparent_secure", null ],
-      [ "Module configuration options", "module__telemetry_transparent_secure.html#configuration__telemetry_transparent_secure", null ],
-      [ "Auto-loaded modules", "module__telemetry_transparent_secure.html#autoloads__telemetry_transparent_secure", null ],
-      [ "Module functions", "module__telemetry_transparent_secure.html#functions__telemetry_transparent_secure", [
-        [ "Raw telemetry_transparent_secure.xml file:", "module__telemetry_transparent_secure.html#module_xml__telemetry_transparent_secure", null ]
+    [ "telemetry_transparent_gec module", "module__telemetry_transparent_gec.html", [
+      [ "Example for airframe file", "module__telemetry_transparent_gec.html#module_load_example__telemetry_transparent_gec", null ],
+      [ "Auto-loaded modules", "module__telemetry_transparent_gec.html#autoloads__telemetry_transparent_gec", null ],
+      [ "Module functions", "module__telemetry_transparent_gec.html#functions__telemetry_transparent_gec", [
+        [ "Raw telemetry_transparent_gec.xml file:", "module__telemetry_transparent_gec.html#module_xml__telemetry_transparent_gec", null ]
       ] ]
     ] ],
     [ "telemetry_transparent_udp module", "module__telemetry_transparent_udp.html", [
@@ -753,7 +778,8 @@ var onboard_modules =
       ] ]
     ] ],
     [ "fdm_gazebo module", "module__fdm_gazebo.html", [
-      [ "Example for airframe file", "module__fdm_gazebo.html#module_load_example__fdm_gazebo", [
+      [ "Example for airframe file", "module__fdm_gazebo.html#module_load_example__fdm_gazebo", null ],
+      [ "Module configuration options", "module__fdm_gazebo.html#configuration__fdm_gazebo", [
         [ "Raw fdm_gazebo.xml file:", "module__fdm_gazebo.html#module_xml__fdm_gazebo", null ]
       ] ]
     ] ],
@@ -1506,6 +1532,11 @@ var onboard_modules =
     [ "mcu module", "module__mcu.html", [
       [ "Example for airframe file", "module__mcu.html#module_load_example__mcu", [
         [ "Raw mcu.xml file:", "module__mcu.html#module_xml__mcu", null ]
+      ] ]
+    ] ],
+    [ "rng module", "module__rng.html", [
+      [ "Example for airframe file", "module__rng.html#module_load_example__rng", [
+        [ "Raw rng.xml file:", "module__rng.html#module_xml__rng", null ]
       ] ]
     ] ],
     [ "spi_master module", "module__spi_master.html", [
@@ -2435,6 +2466,22 @@ var onboard_modules =
         [ "Raw demo_module.xml file:", "module__demo_module.html#module_xml__demo_module", null ]
       ] ]
     ] ],
+    [ "distributed_circular_formation module", "module__distributed_circular_formation.html", [
+      [ "Example for airframe file", "module__distributed_circular_formation.html#module_load_example__distributed_circular_formation", null ],
+      [ "Module configuration options", "module__distributed_circular_formation.html#configuration__distributed_circular_formation", null ],
+      [ "Dependencies", "module__distributed_circular_formation.html#dependencies__distributed_circular_formation", null ],
+      [ "Module functions", "module__distributed_circular_formation.html#functions__distributed_circular_formation", null ],
+      [ "Datalink Functions", "module__distributed_circular_formation.html#datalink_functions__distributed_circular_formation", [
+        [ "Raw distributed_circular_formation.xml file:", "module__distributed_circular_formation.html#module_xml__distributed_circular_formation", null ]
+      ] ]
+    ] ],
+    [ "dragspeed module", "module__dragspeed.html", [
+      [ "Example for airframe file", "module__dragspeed.html#module_load_example__dragspeed", null ],
+      [ "Module configuration options", "module__dragspeed.html#configuration__dragspeed", null ],
+      [ "Module functions", "module__dragspeed.html#functions__dragspeed", [
+        [ "Raw dragspeed.xml file:", "module__dragspeed.html#module_xml__dragspeed", null ]
+      ] ]
+    ] ],
     [ "enose module", "module__enose.html", [
       [ "Example for airframe file", "module__enose.html#module_load_example__enose", null ],
       [ "Module functions", "module__enose.html#functions__enose", [
@@ -2532,6 +2579,13 @@ var onboard_modules =
         [ "Raw imu_vectornav.xml file:", "module__imu_vectornav.html#module_xml__imu_vectornav", null ]
       ] ]
     ] ],
+    [ "jevois module", "module__jevois.html", [
+      [ "Example for airframe file", "module__jevois.html#module_load_example__jevois", null ],
+      [ "Module configuration options", "module__jevois.html#configuration__jevois", null ],
+      [ "Module functions", "module__jevois.html#functions__jevois", [
+        [ "Raw jevois.xml file:", "module__jevois.html#module_xml__jevois", null ]
+      ] ]
+    ] ],
     [ "max3100 module", "module__max3100.html", [
       [ "Example for airframe file", "module__max3100.html#module_load_example__max3100", null ],
       [ "Module functions", "module__max3100.html#functions__max3100", [
@@ -2559,6 +2613,7 @@ var onboard_modules =
     ] ],
     [ "orange_avoider module", "module__orange_avoider.html", [
       [ "Example for airframe file", "module__orange_avoider.html#module_load_example__orange_avoider", null ],
+      [ "Module configuration options", "module__orange_avoider.html#configuration__orange_avoider", null ],
       [ "Dependencies", "module__orange_avoider.html#dependencies__orange_avoider", null ],
       [ "Module functions", "module__orange_avoider.html#functions__orange_avoider", [
         [ "Raw orange_avoider.xml file:", "module__orange_avoider.html#module_xml__orange_avoider", null ]

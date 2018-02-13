@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -721,12 +721,12 @@ $(document).ready(function(){initNavTree('sdLog_8c_source.html','');});
 <div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    status = <a class="code" href="sdLog_8h.html#ae9361ce95c5a174983481365e90d87b3a1486fb4bf54767066d617d124c7d1b85">SDLOG_QUEUEFULL</a>;</div>
 <div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;  }</div>
 <div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;</div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;  <span class="keywordflow">goto</span> <a class="code" href="kremlib_8h.html#a2c0fc8fb2a170824c3e134b3e7a4a1e9">exit</a>;</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;  <span class="keywordflow">goto</span> exit;</div>
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;</div>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;fail:</div>
 <div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;  <a class="code" href="tlsf__malloc__arch_8c.html#a17c0510bfc2132940c5d57578d37fe5e">tlsf_free_r</a>(&amp;<a class="code" href="tlsf__malloc__arch_8h.html#a78ac5dd228d7ef8d18bbecaf513355b2">HEAP_DEFAULT</a>, sdb-&gt;lm);</div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;<a class="code" href="kremlib_8h.html#a2c0fc8fb2a170824c3e134b3e7a4a1e9">exit</a>:</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;exit:</div>
 <div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;  <a class="code" href="tlsf__malloc__arch_8c.html#a17c0510bfc2132940c5d57578d37fe5e">tlsf_free_r</a>(&amp;<a class="code" href="tlsf__malloc__arch_8h.html#a78ac5dd228d7ef8d18bbecaf513355b2">HEAP_DEFAULT</a>, sdb);</div>
 <div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;  <span class="keywordflow">return</span> storageStatus = <a class="code" href="anemotaxis_8c.html#a015eb90e0de9f16e87bd149d4b9ce959">status</a>;</div>
 <div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;}</div>
@@ -1195,7 +1195,6 @@ $(document).ready(function(){initNavTree('sdLog_8c_source.html','');});
 <div class="ttc" id="tlsf__malloc_8h_html_structtlsf__stat__t"><div class="ttname"><a href="tlsf__malloc_8h.html#structtlsf__stat__t">tlsf_stat_t</a></div><div class="ttdef"><b>Definition:</b> <a href="tlsf__malloc_8h_source.html#l00055">tlsf_malloc.h:55</a></div></div>
 <div class="ttc" id="tlsf__malloc__arch_8c_html_a17c0510bfc2132940c5d57578d37fe5e"><div class="ttname"><a href="tlsf__malloc__arch_8c.html#a17c0510bfc2132940c5d57578d37fe5e">tlsf_free_r</a></div><div class="ttdeci">void tlsf_free_r(tlsf_memory_heap_t *heap, void *ptr)</div><div class="ttdef"><b>Definition:</b> <a href="tlsf__malloc__arch_8c_source.html#l00119">tlsf_malloc_arch.c:119</a></div></div>
 <div class="ttc" id="tlsf__malloc__arch_8c_html_a95f2a98b0ca24489895eb88877ba6656"><div class="ttname"><a href="tlsf__malloc__arch_8c.html#a95f2a98b0ca24489895eb88877ba6656">tlsf_stat_r</a></div><div class="ttdeci">void tlsf_stat_r(tlsf_memory_heap_t *heap, struct tlsf_stat_t *stat)</div><div class="ttdef"><b>Definition:</b> <a href="tlsf__malloc__arch_8c_source.html#l00127">tlsf_malloc_arch.c:127</a></div></div>
-<div class="ttc" id="kremlib_8h_html_a2c0fc8fb2a170824c3e134b3e7a4a1e9"><div class="ttname"><a href="kremlib_8h.html#a2c0fc8fb2a170824c3e134b3e7a4a1e9">exit</a></div><div class="ttdeci">#define exit(_x)</div><div class="ttdef"><b>Definition:</b> <a href="kremlib_8h_source.html#l00243">kremlib.h:243</a></div></div>
 <div class="ttc" id="sdLog_8c_html_a598888320386c21f975d32d68f29bcf3"><div class="ttname"><a href="sdLog_8c.html#a598888320386c21f975d32d68f29bcf3">sdLogInit</a></div><div class="ttdeci">SdioError sdLogInit(uint32_t *freeSpaceInKo)</div><div class="ttdoc">initialise sdLog </div><div class="ttdef"><b>Definition:</b> <a href="sdLog_8c_source.html#l00193">sdLog.c:193</a></div></div>
 <div class="ttc" id="std_8h_html_aa93f0eb578d23995850d61f7d61c55c1"><div class="ttname"><a href="std_8h.html#aa93f0eb578d23995850d61f7d61c55c1">FALSE</a></div><div class="ttdeci">#define FALSE</div><div class="ttdef"><b>Definition:</b> <a href="std_8h_source.html#l00005">std.h:5</a></div></div>
 <div class="ttc" id="rtwtypes_8h_html_a41f9c5fb8b08eb5dc3edce4dcb37fee7"><div class="ttname"><a href="rtwtypes_8h.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a></div><div class="ttdeci">#define true</div><div class="ttdef"><b>Definition:</b> <a href="rtwtypes_8h_source.html#l00028">rtwtypes.h:28</a></div></div>
@@ -1246,7 +1245,7 @@ $(document).ready(function(){initNavTree('sdLog_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_c2abcdd6ccb39c3582929c0e3f5651c2.html">modules</a></li><li class="navelem"><a class="el" href="dir_cbf4be70f5fb954ea1d2a546dd70b40e.html">loggers</a></li><li class="navelem"><a class="el" href="dir_c27662836f6a804eadd3e3b5df5506a4.html">sdlog_chibios</a></li><li class="navelem"><a class="el" href="sdLog_8c.html">sdLog.c</a></li>
-    <li class="footer">Generated on Wed Nov 8 2017 10:01:42 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:01:52 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

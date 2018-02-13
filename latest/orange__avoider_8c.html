@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -117,6 +117,7 @@ $(document).ready(function(){initNavTree('orange__avoider_8c.html','');});
 <code>#include &quot;<a class="el" href="colorfilter_8h_source.html">modules/computer_vision/colorfilter.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="navigation_8h_source.html">firmwares/rotorcraft/navigation.h</a>&quot;</code><br />
 <code>#include &quot;generated/flight_plan.h&quot;</code><br />
+<code>#include &quot;generated/airframe.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="state_8h_source.html">state.h</a>&quot;</code><br />
 <code>#include &lt;time.h&gt;</code><br />
 <code>#include &lt;math.h&gt;</code><br />
@@ -129,7 +130,7 @@ $(document).ready(function(){initNavTree('orange__avoider_8c.html','');});
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="orange__avoider_8c__incl.png" border="0" usemap="#sw_2airborne_2modules_2orange__avoider_2orange__avoider_8c" alt=""/></div>
 <map name="sw_2airborne_2modules_2orange__avoider_2orange__avoider_8c" id="sw_2airborne_2modules_2orange__avoider_2orange__avoider_8c">
-<area shape="rect" id="node2" href="orange__avoider_8h.html" title="modules/orange_avoider\l/orange_avoider.h" alt="" coords="513,452,693,493"/><area shape="rect" id="node13" href="colorfilter_8h.html" title="modules/computer_vision\l/colorfilter.h" alt="" coords="391,109,577,151"/><area shape="rect" id="node21" href="state_8h.html" title="API to get/set the generic vehicle states. " alt="" coords="1133,459,1200,486"/><area shape="rect" id="node28" href="navigation_8h.html" title="Rotorcraft navigation functions. " alt="" coords="953,273,1101,315"/><area shape="rect" id="node3" href="inttypes_8h.html" title="inttypes.h" alt="" coords="560,549,645,575"/><area shape="rect" id="node4" href="pprz__geodetic__int_8h.html" title="Paparazzi fixed point math for geodetic calculations. " alt="" coords="787,541,938,583"/><area shape="rect" id="node5" href="pprz__geodetic_8h.html" title="Paparazzi generic macros for geodetic calculations. " alt="" coords="833,638,957,665"/><area shape="rect" id="node7" href="pprz__algebra__int_8h.html" title="Paparazzi fixed point algebra. " alt="" coords="1130,638,1270,665"/><area shape="rect" id="node8" href="pprz__algebra_8h.html" title="Paparazzi generic algebra macros. " alt="" coords="1345,720,1500,747"/><area shape="rect" id="node11" href="pprz__trig__int_8h.html" title="Paparazzi fixed point trig functions. " alt="" coords="883,720,1034,747"/><area shape="rect" id="node15" href="cv_8h.html" title="Computer vision framework for onboard processing. " alt="" coords="187,199,402,225"/><area shape="rect" id="node17" href="video__device_8h.html" title="peripherals/video_device.h" alt="" coords="199,281,390,307"/><area shape="rect" id="node19" href="image_8h.html" title="Image helper functions like resizing, color filter, converters... " alt="" coords="43,363,229,404"/><area shape="rect" id="node22" href="pprz__algebra__float_8h.html" title="Paparazzi floating point algebra. " alt="" coords="1346,638,1537,665"/><area shape="rect" id="node25" href="pprz__geodetic__float_8h.html" title="Paparazzi floating point math for geodetic calculations. " alt="" coords="962,541,1113,583"/><area shape="rect" id="node26" href="pprz__orientation__conversion_8h.html" title="Generic orientation representation and conversions. " alt="" coords="1239,541,1403,583"/><area shape="rect" id="node29" href="subsystems_2navigation_2waypoints_8h.html" title="subsystems/navigation\l/waypoints.h" alt="" coords="889,452,1058,493"/><area shape="rect" id="node30" href="common__flight__plan_8h.html" title="Common flight_plan functions shared between fixedwing and rotorcraft. " alt="" coords="474,631,643,672"/><area shape="rect" id="node31" href="autopilot_8h.html" title="Core autopilot interface common to all firmwares. " alt="" coords="1247,370,1337,397"/><area shape="rect" id="node32" href="paparazzi_8h.html" title="paparazzi.h" alt="" coords="768,459,864,486"/></map>
+<area shape="rect" id="node2" href="orange__avoider_8h.html" title="modules/orange_avoider\l/orange_avoider.h" alt="" coords="946,452,1126,493"/><area shape="rect" id="node13" href="colorfilter_8h.html" title="modules/computer_vision\l/colorfilter.h" alt="" coords="826,109,1013,151"/><area shape="rect" id="node21" href="state_8h.html" title="API to get/set the generic vehicle states. " alt="" coords="590,459,657,486"/><area shape="rect" id="node28" href="navigation_8h.html" title="Rotorcraft navigation functions. " alt="" coords="1650,273,1798,315"/><area shape="rect" id="node3" href="inttypes_8h.html" title="inttypes.h" alt="" coords="1049,549,1134,575"/><area shape="rect" id="node4" href="pprz__geodetic__int_8h.html" title="Paparazzi fixed point math for geodetic calculations. " alt="" coords="1384,541,1535,583"/><area shape="rect" id="node5" href="pprz__geodetic_8h.html" title="Paparazzi generic macros for geodetic calculations. " alt="" coords="1296,638,1420,665"/><area shape="rect" id="node7" href="pprz__algebra__int_8h.html" title="Paparazzi fixed point algebra. " alt="" coords="674,638,814,665"/><area shape="rect" id="node8" href="pprz__algebra_8h.html" title="Paparazzi generic algebra macros. " alt="" coords="441,720,596,747"/><area shape="rect" id="node11" href="pprz__trig__int_8h.html" title="Paparazzi fixed point trig functions. " alt="" coords="671,720,822,747"/><area shape="rect" id="node15" href="cv_8h.html" title="Computer vision framework for onboard processing. " alt="" coords="812,199,1027,225"/><area shape="rect" id="node17" href="video__device_8h.html" title="peripherals/video_device.h" alt="" coords="478,281,668,307"/><area shape="rect" id="node19" href="image_8h.html" title="Image helper functions like resizing, color filter, converters... " alt="" coords="581,363,768,404"/><area shape="rect" id="node22" href="pprz__algebra__float_8h.html" title="Paparazzi floating point algebra. " alt="" coords="404,638,595,665"/><area shape="rect" id="node25" href="pprz__geodetic__float_8h.html" title="Paparazzi floating point math for geodetic calculations. " alt="" coords="1210,541,1360,583"/><area shape="rect" id="node26" href="pprz__orientation__conversion_8h.html" title="Generic orientation representation and conversions. " alt="" coords="542,541,706,583"/><area shape="rect" id="node29" href="subsystems_2navigation_2waypoints_8h.html" title="subsystems/navigation\l/waypoints.h" alt="" coords="1984,452,2154,493"/><area shape="rect" id="node30" href="common__flight__plan_8h.html" title="Common flight_plan functions shared between fixedwing and rotorcraft. " alt="" coords="1051,631,1220,672"/><area shape="rect" id="node31" href="autopilot_8h.html" title="Core autopilot interface common to all firmwares. " alt="" coords="1606,370,1697,397"/><area shape="rect" id="node32" href="paparazzi_8h.html" title="paparazzi.h" alt="" coords="1333,459,1429,486"/></map>
 </div>
 </div>
 <p><a href="orange__avoider_8c_source.html">Go to the source code of this file.</a></p>
@@ -142,6 +143,18 @@ Macros</h2></td></tr>
 <tr class="separator:aee52c6162d4b084290ed778856a1ded4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01535af7e50005fd099fe06f94865e54"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="orange__avoider_8c.html#a01535af7e50005fd099fe06f94865e54">VERBOSE_PRINT</a>(...)</td></tr>
 <tr class="separator:a01535af7e50005fd099fe06f94865e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a8960b55556a3b95d40f8dfa7b4df1b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="orange__avoider_8c.html#a1a8960b55556a3b95d40f8dfa7b4df1b">ORANGE_AVOIDER_LUM_MIN</a>&#160;&#160;&#160;41</td></tr>
+<tr class="separator:a1a8960b55556a3b95d40f8dfa7b4df1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65005e47e3ec61733d2c4d95cdd5c6c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="orange__avoider_8c.html#a65005e47e3ec61733d2c4d95cdd5c6c3">ORANGE_AVOIDER_LUM_MAX</a>&#160;&#160;&#160;183</td></tr>
+<tr class="separator:a65005e47e3ec61733d2c4d95cdd5c6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a210a32059cd035137221033da4886fb9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="orange__avoider_8c.html#a210a32059cd035137221033da4886fb9">ORANGE_AVOIDER_CB_MIN</a>&#160;&#160;&#160;53</td></tr>
+<tr class="separator:a210a32059cd035137221033da4886fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a199edfbce7a9eaa0eccb19018b70cced"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="orange__avoider_8c.html#a199edfbce7a9eaa0eccb19018b70cced">ORANGE_AVOIDER_CB_MAX</a>&#160;&#160;&#160;121</td></tr>
+<tr class="separator:a199edfbce7a9eaa0eccb19018b70cced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bd50f1ab5405433215e3dda8fc17705"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="orange__avoider_8c.html#a4bd50f1ab5405433215e3dda8fc17705">ORANGE_AVOIDER_CR_MIN</a>&#160;&#160;&#160;134</td></tr>
+<tr class="separator:a4bd50f1ab5405433215e3dda8fc17705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae643ce1e3aebb04c13186a463ac42b52"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="orange__avoider_8c.html#ae643ce1e3aebb04c13186a463ac42b52">ORANGE_AVOIDER_CR_MAX</a>&#160;&#160;&#160;249</td></tr>
+<tr class="separator:ae643ce1e3aebb04c13186a463ac42b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -178,6 +191,102 @@ Variables</h2></td></tr>
 
 <p>Definition in file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="a199edfbce7a9eaa0eccb19018b70cced"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ORANGE_AVOIDER_CB_MAX&#160;&#160;&#160;121</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00047">47</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00068">orange_avoider_init()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a210a32059cd035137221033da4886fb9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ORANGE_AVOIDER_CB_MIN&#160;&#160;&#160;53</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00043">43</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00068">orange_avoider_init()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae643ce1e3aebb04c13186a463ac42b52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ORANGE_AVOIDER_CR_MAX&#160;&#160;&#160;249</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00055">55</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00068">orange_avoider_init()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4bd50f1ab5405433215e3dda8fc17705"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ORANGE_AVOIDER_CR_MIN&#160;&#160;&#160;134</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00051">51</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00068">orange_avoider_init()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a65005e47e3ec61733d2c4d95cdd5c6c3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ORANGE_AVOIDER_LUM_MAX&#160;&#160;&#160;183</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00039">39</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00068">orange_avoider_init()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1a8960b55556a3b95d40f8dfa7b4df1b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ORANGE_AVOIDER_LUM_MIN&#160;&#160;&#160;41</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00035">35</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00068">orange_avoider_init()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="af115de1f0ff11c264ed97e821b2b468e"></a>
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +297,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00024">24</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00025">25</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
 </div>
 </div>
@@ -216,7 +325,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00026">26</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00027">27</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
 </div>
 </div>
@@ -234,9 +343,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00030">30</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00031">31</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00102">calculateForwards()</a>, <a class="el" href="orange__avoider_8c_source.html#l00143">chooseRandomIncrementAvoidance()</a>, <a class="el" href="orange__avoider_8c_source.html#l00088">increase_nav_heading()</a>, <a class="el" href="orange__avoider_8c_source.html#l00121">moveWaypoint()</a>, and <a class="el" href="orange__avoider_8c_source.html#l00059">orange_avoider_periodic()</a>.</p>
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00128">calculateForwards()</a>, <a class="el" href="orange__avoider_8c_source.html#l00169">chooseRandomIncrementAvoidance()</a>, <a class="el" href="orange__avoider_8c_source.html#l00114">increase_nav_heading()</a>, <a class="el" href="orange__avoider_8c_source.html#l00147">moveWaypoint()</a>, and <a class="el" href="orange__avoider_8c_source.html#l00085">orange_avoider_periodic()</a>.</p>
 
 </div>
 </div>
@@ -273,11 +382,11 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00102">102</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00128">128</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>References <a class="el" href="pprz__algebra__int_8h_source.html#l00211">ANGLE_FLOAT_OF_BFP</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00216">POS_BFP_OF_REAL</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00217">POS_FLOAT_OF_BFP</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00149">Int32Eulers::psi</a>, <a class="el" href="state_8h_source.html#l01125">stateGetNedToBodyEulers_i()</a>, <a class="el" href="state_8h_source.html#l00674">stateGetPositionEnu_i()</a>, <a class="el" href="orange__avoider_8c_source.html#l00030">VERBOSE_PRINT</a>, <a class="el" href="pprz__geodetic__int_8h_source.html#l00078">EnuCoor_i::x</a>, and <a class="el" href="pprz__geodetic__int_8h_source.html#l00079">EnuCoor_i::y</a>.</p>
+<p>References <a class="el" href="pprz__algebra__int_8h_source.html#l00211">ANGLE_FLOAT_OF_BFP</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00216">POS_BFP_OF_REAL</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00217">POS_FLOAT_OF_BFP</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00149">Int32Eulers::psi</a>, <a class="el" href="state_8h_source.html#l01125">stateGetNedToBodyEulers_i()</a>, <a class="el" href="state_8h_source.html#l00674">stateGetPositionEnu_i()</a>, <a class="el" href="orange__avoider_8c_source.html#l00031">VERBOSE_PRINT</a>, <a class="el" href="pprz__geodetic__int_8h_source.html#l00078">EnuCoor_i::x</a>, and <a class="el" href="pprz__geodetic__int_8h_source.html#l00079">EnuCoor_i::y</a>.</p>
 
-<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00132">moveWaypointForward()</a>.</p>
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00158">moveWaypointForward()</a>.</p>
 
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -317,11 +426,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00143">143</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00169">169</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>References <a class="el" href="orange__avoider_8c_source.html#l00035">incrementForAvoidance</a>, and <a class="el" href="orange__avoider_8c_source.html#l00030">VERBOSE_PRINT</a>.</p>
+<p>References <a class="el" href="orange__avoider_8c_source.html#l00061">incrementForAvoidance</a>, and <a class="el" href="orange__avoider_8c_source.html#l00031">VERBOSE_PRINT</a>.</p>
 
-<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00042">orange_avoider_init()</a>, and <a class="el" href="orange__avoider_8c_source.html#l00059">orange_avoider_periodic()</a>.</p>
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00068">orange_avoider_init()</a>, and <a class="el" href="orange__avoider_8c_source.html#l00085">orange_avoider_periodic()</a>.</p>
 
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -360,11 +469,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00088">88</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00114">114</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>References <a class="el" href="pprz__algebra__int_8h_source.html#l00210">ANGLE_BFP_OF_REAL</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00211">ANGLE_FLOAT_OF_BFP</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00126">INT32_ANGLE_NORMALIZE</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00149">Int32Eulers::psi</a>, <a class="el" href="state_8h_source.html#l01125">stateGetNedToBodyEulers_i()</a>, and <a class="el" href="orange__avoider_8c_source.html#l00030">VERBOSE_PRINT</a>.</p>
+<p>References <a class="el" href="pprz__algebra__int_8h_source.html#l00210">ANGLE_BFP_OF_REAL</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00211">ANGLE_FLOAT_OF_BFP</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00126">INT32_ANGLE_NORMALIZE</a>, <a class="el" href="pprz__algebra__int_8h_source.html#l00149">Int32Eulers::psi</a>, <a class="el" href="state_8h_source.html#l01125">stateGetNedToBodyEulers_i()</a>, and <a class="el" href="orange__avoider_8c_source.html#l00031">VERBOSE_PRINT</a>.</p>
 
-<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00059">orange_avoider_periodic()</a>.</p>
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00085">orange_avoider_periodic()</a>.</p>
 
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -414,11 +523,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00121">121</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00147">147</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>References <a class="el" href="pprz__algebra__int_8h_source.html#l00217">POS_FLOAT_OF_BFP</a>, <a class="el" href="orange__avoider_8c_source.html#l00030">VERBOSE_PRINT</a>, <a class="el" href="subsystems_2navigation_2waypoints_8c_source.html#l00138">waypoint_set_xy_i()</a>, <a class="el" href="pprz__geodetic__int_8h_source.html#l00078">EnuCoor_i::x</a>, and <a class="el" href="pprz__geodetic__int_8h_source.html#l00079">EnuCoor_i::y</a>.</p>
+<p>References <a class="el" href="pprz__algebra__int_8h_source.html#l00217">POS_FLOAT_OF_BFP</a>, <a class="el" href="orange__avoider_8c_source.html#l00031">VERBOSE_PRINT</a>, <a class="el" href="subsystems_2navigation_2waypoints_8c_source.html#l00138">waypoint_set_xy_i()</a>, <a class="el" href="pprz__geodetic__int_8h_source.html#l00078">EnuCoor_i::x</a>, and <a class="el" href="pprz__geodetic__int_8h_source.html#l00079">EnuCoor_i::y</a>.</p>
 
-<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00132">moveWaypointForward()</a>.</p>
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00158">moveWaypointForward()</a>.</p>
 
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -468,11 +577,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00132">132</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00158">158</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>References <a class="el" href="orange__avoider_8c_source.html#l00102">calculateForwards()</a>, and <a class="el" href="orange__avoider_8c_source.html#l00121">moveWaypoint()</a>.</p>
+<p>References <a class="el" href="orange__avoider_8c_source.html#l00128">calculateForwards()</a>, and <a class="el" href="orange__avoider_8c_source.html#l00147">moveWaypoint()</a>.</p>
 
-<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00059">orange_avoider_periodic()</a>.</p>
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00085">orange_avoider_periodic()</a>.</p>
 
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -512,9 +621,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00042">42</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00068">68</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>References <a class="el" href="orange__avoider_8c_source.html#l00143">chooseRandomIncrementAvoidance()</a>, <a class="el" href="colorfilter_8c_source.html#l00049">color_cb_max</a>, <a class="el" href="colorfilter_8c_source.html#l00048">color_cb_min</a>, <a class="el" href="colorfilter_8c_source.html#l00051">color_cr_max</a>, <a class="el" href="colorfilter_8c_source.html#l00050">color_cr_min</a>, <a class="el" href="colorfilter_8c_source.html#l00047">color_lum_max</a>, and <a class="el" href="colorfilter_8c_source.html#l00046">color_lum_min</a>.</p>
+<p>References <a class="el" href="orange__avoider_8c_source.html#l00169">chooseRandomIncrementAvoidance()</a>, <a class="el" href="colorfilter_8c_source.html#l00049">color_cb_max</a>, <a class="el" href="colorfilter_8c_source.html#l00048">color_cb_min</a>, <a class="el" href="colorfilter_8c_source.html#l00051">color_cr_max</a>, <a class="el" href="colorfilter_8c_source.html#l00050">color_cr_min</a>, <a class="el" href="colorfilter_8c_source.html#l00047">color_lum_max</a>, <a class="el" href="colorfilter_8c_source.html#l00046">color_lum_min</a>, <a class="el" href="orange__avoider_8c_source.html#l00047">ORANGE_AVOIDER_CB_MAX</a>, <a class="el" href="orange__avoider_8c_source.html#l00043">ORANGE_AVOIDER_CB_MIN</a>, <a class="el" href="orange__avoider_8c_source.html#l00055">ORANGE_AVOIDER_CR_MAX</a>, <a class="el" href="orange__avoider_8c_source.html#l00051">ORANGE_AVOIDER_CR_MIN</a>, <a class="el" href="orange__avoider_8c_source.html#l00039">ORANGE_AVOIDER_LUM_MAX</a>, and <a class="el" href="orange__avoider_8c_source.html#l00035">ORANGE_AVOIDER_LUM_MIN</a>.</p>
 
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-10-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -543,9 +652,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00059">59</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00085">85</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>References <a class="el" href="orange__avoider_8c_source.html#l00143">chooseRandomIncrementAvoidance()</a>, <a class="el" href="colorfilter_8c_source.html#l00054">color_count</a>, <a class="el" href="orange__avoider_8c_source.html#l00088">increase_nav_heading()</a>, <a class="el" href="orange__avoider_8c_source.html#l00035">incrementForAvoidance</a>, <a class="el" href="orange__avoider_8c_source.html#l00037">maxDistance</a>, <a class="el" href="orange__avoider_8c_source.html#l00132">moveWaypointForward()</a>, <a class="el" href="navigation_8c_source.html#l00104">nav_heading</a>, <a class="el" href="navigation_8c_source.html#l00510">nav_set_heading_towards_waypoint()</a>, <a class="el" href="orange__avoider_8c_source.html#l00033">safeToGoForwards</a>, <a class="el" href="orange__avoider_8c_source.html#l00036">trajectoryConfidence</a>, <a class="el" href="orange__avoider_8c_source.html#l00034">tresholdColorCount</a>, <a class="el" href="orange__avoider_8c_source.html#l00030">VERBOSE_PRINT</a>, and <a class="el" href="subsystems_2navigation_2waypoints_8c_source.html#l00225">waypoint_set_here_2d()</a>.</p>
+<p>References <a class="el" href="orange__avoider_8c_source.html#l00169">chooseRandomIncrementAvoidance()</a>, <a class="el" href="colorfilter_8c_source.html#l00054">color_count</a>, <a class="el" href="orange__avoider_8c_source.html#l00114">increase_nav_heading()</a>, <a class="el" href="orange__avoider_8c_source.html#l00061">incrementForAvoidance</a>, <a class="el" href="orange__avoider_8c_source.html#l00063">maxDistance</a>, <a class="el" href="orange__avoider_8c_source.html#l00158">moveWaypointForward()</a>, <a class="el" href="navigation_8c_source.html#l00104">nav_heading</a>, <a class="el" href="navigation_8c_source.html#l00510">nav_set_heading_towards_waypoint()</a>, <a class="el" href="orange__avoider_8c_source.html#l00059">safeToGoForwards</a>, <a class="el" href="orange__avoider_8c_source.html#l00062">trajectoryConfidence</a>, <a class="el" href="orange__avoider_8c_source.html#l00060">tresholdColorCount</a>, <a class="el" href="orange__avoider_8c_source.html#l00031">VERBOSE_PRINT</a>, and <a class="el" href="subsystems_2navigation_2waypoints_8c_source.html#l00225">waypoint_set_here_2d()</a>.</p>
 
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -571,9 +680,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00035">35</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00061">61</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00143">chooseRandomIncrementAvoidance()</a>, and <a class="el" href="orange__avoider_8c_source.html#l00059">orange_avoider_periodic()</a>.</p>
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00169">chooseRandomIncrementAvoidance()</a>, and <a class="el" href="orange__avoider_8c_source.html#l00085">orange_avoider_periodic()</a>.</p>
 
 </div>
 </div>
@@ -587,9 +696,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00037">37</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00063">63</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00059">orange_avoider_periodic()</a>.</p>
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00085">orange_avoider_periodic()</a>.</p>
 
 </div>
 </div>
@@ -603,9 +712,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00033">33</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00059">59</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00059">orange_avoider_periodic()</a>.</p>
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00085">orange_avoider_periodic()</a>.</p>
 
 </div>
 </div>
@@ -619,9 +728,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00036">36</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00062">62</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00059">orange_avoider_periodic()</a>.</p>
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00085">orange_avoider_periodic()</a>.</p>
 
 </div>
 </div>
@@ -635,9 +744,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00034">34</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
+<p>Definition at line <a class="el" href="orange__avoider_8c_source.html#l00060">60</a> of file <a class="el" href="orange__avoider_8c_source.html">orange_avoider.c</a>.</p>
 
-<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00059">orange_avoider_periodic()</a>.</p>
+<p>Referenced by <a class="el" href="orange__avoider_8c_source.html#l00085">orange_avoider_periodic()</a>.</p>
 
 </div>
 </div>
@@ -647,7 +756,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_c2abcdd6ccb39c3582929c0e3f5651c2.html">modules</a></li><li class="navelem"><a class="el" href="dir_183f1dc71a771a05a9ab5222da140bc3.html">orange_avoider</a></li><li class="navelem"><a class="el" href="orange__avoider_8c.html">orange_avoider.c</a></li>
-    <li class="footer">Generated on Wed Nov 8 2017 10:02:31 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:02:38 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

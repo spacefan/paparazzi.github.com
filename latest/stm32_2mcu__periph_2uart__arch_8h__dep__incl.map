@@ -37,10 +37,10 @@
 <area shape="rect" id="node37" href="$cartography_8c.html" title="Navigation functions for cartography of the ground. " alt="" coords="5721,191,5914,233"/>
 <area shape="rect" id="node38" href="$config__mkk__v2_8c.html" title="sw/airborne/modules\l/config/config_mkk_v2.c" alt="" coords="5939,191,6112,233"/>
 <area shape="rect" id="node39" href="$sys__mon_8c.html" title="System monitoring for bare metal targets return cpu load, average exec time, ... " alt="" coords="6136,191,6291,233"/>
-<area shape="rect" id="node40" href="$mavlink_8h.html" title="Basic MAVLink datalink implementation. " alt="" coords="6315,191,6469,233"/>
-<area shape="rect" id="node41" href="$mavlink__decoder_8h.html" title="simple decoder of mavlink message " alt="" coords="6493,191,6691,233"/>
-<area shape="rect" id="node42" href="$pprz__dl_8h.html" title="Datalink using PPRZ protocol. " alt="" coords="6715,191,6869,233"/>
-<area shape="rect" id="node43" href="$spprz__dl_8h.html" title="Datalink using secure PPRZ protocol. " alt="" coords="6893,191,7048,233"/>
+<area shape="rect" id="node40" href="$gec__dl_8h.html" title="Datalink using Galois Embedded Crypto. " alt="" coords="6315,191,6469,233"/>
+<area shape="rect" id="node41" href="$mavlink_8h.html" title="Basic MAVLink datalink implementation. " alt="" coords="6493,191,6648,233"/>
+<area shape="rect" id="node42" href="$mavlink__decoder_8h.html" title="simple decoder of mavlink message " alt="" coords="6671,191,6870,233"/>
+<area shape="rect" id="node43" href="$pprz__dl_8h.html" title="Datalink using PPRZ protocol. " alt="" coords="6893,191,7048,233"/>
 <area shape="rect" id="node44" href="$xbee__dl_8c.html" title="sw/airborne/modules\l/datalink/xbee_dl.c" alt="" coords="7072,191,7227,233"/>
 <area shape="rect" id="node45" href="$xtend__rssi_8c.html" title="This measures the rssi pwm signal from a Digi XTend radio modem and sends a message with the info..." alt="" coords="7251,191,7407,233"/>
 <area shape="rect" id="node46" href="$dw1000__arduino_8c.html" title="sw/airborne/modules\l/decawave/dw1000_arduino.c" alt="" coords="7432,191,7640,233"/>

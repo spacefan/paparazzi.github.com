@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['object_5ftracking_2ec',['object_tracking.c',['../object__tracking_8c.html',1,'']]],
+  ['object_5ftracking_2eh',['object_tracking.h',['../object__tracking_8h.html',1,'']]],
   ['obstacle_5favoidance_2ec',['obstacle_avoidance.c',['../obstacle__avoidance_8c.html',1,'']]],
   ['obstacle_5favoidance_2eh',['obstacle_avoidance.h',['../obstacle__avoidance_8h.html',1,'']]],
   ['olimex_5flpc_5fh2148_2eh',['olimex_lpc_h2148.h',['../olimex__lpc__h2148_8h.html',1,'']]],

@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -186,6 +186,12 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>calib
 : <a class="el" href="bmp085_8h.html#a24420a3b5113035a1a1d6253159081d9">Bmp085</a>
+</li>
+<li>calibrate_coeff
+: <a class="el" href="dragspeed_8h.html#a0b3ed538b3560d194b89a095eda9f89c">dragspeed_t</a>
+</li>
+<li>calibrate_zero
+: <a class="el" href="dragspeed_8h.html#a9782a41943698bdf02e39ed88ac47483">dragspeed_t</a>
 </li>
 <li>callback
 : <a class="el" href="structmavlink__msg__req.html#a8587c7dbc72d2a7516d69f9ba65275b1">mavlink_msg_req</a>
@@ -654,6 +660,9 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>Cnt187
 : <a class="el" href="gps_8h.html#a17e7e754195d574b64362e63f4d0a13c">RtcmMan</a>
 </li>
+<li>coeff
+: <a class="el" href="dragspeed_8h.html#ae736b82c89d840fcd0d4aff3faa24e09">dragspeed_t</a>
+</li>
 <li>coeff_01_00
 : <a class="el" href="avi__isp__chroma_8h.html#ab47993f4c972d8f404715bfa9b4459d0">avi_isp_chroma_regs</a>
 , <a class="el" href="avi__isp__color__correction_8h.html#a06f490ab3db93e4ba5f3ac73f718d872">avi_isp_color_correction_regs</a>
@@ -795,6 +804,9 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>conv
 : <a class="el" href="ads1220_8h.html#ae51999c833281c049bab9806cd3b0edd">Ads1220Config</a>
 </li>
+<li>coord
+: <a class="el" href="jevois_8c.html#a826b10aa11e8b68837f97dd4619d6fa2">jevois_msg_t</a>
+</li>
 <li>copilot_brake_left
 : <a class="el" href="flight__gear_8h.html#a00678f0f6eabb9cc1eb6b2e3a6be6a39">FGNetCtrls</a>
 </li>
@@ -844,6 +856,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>counter
 : <a class="el" href="vi__test__signal_8h.html#a4fdcd74eb4f555d37356459695f00589">BoozFmsTestSignal</a>
+, <a class="el" href="gec_8h.html#a98ecdffce82218b374c5f7dc459a5b0b">gec_sym_key</a>
 , <a class="el" href="direct__memory__logger_8c.html#ab6b1ef7b859d6e3fc40b1804d31a3e7d">LogStruct</a>
 , <a class="el" href="vn200__serial_8h.html#aac8f95cbb26eaafedaf0c68f901060f0">VNPacket</a>
 </li>
@@ -963,9 +976,6 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>ctime2
 : <a class="el" href="lpcRTC_8h.html#a2b8a70c696e890003d9a7ccde4e39b25">rtcRegs_t</a>
 </li>
-<li>ctr
-: <a class="el" href="Chacha20__Vec128_8h.html#ae21b3fde2eacef5b230b411c2dad41e5">Hacl_Impl_Chacha20_Vec128_log_t_</a>
-</li>
 <li>ctrl_reg1
 : <a class="el" href="l3g4200_8h.html#a5aee177e3ea1d8450f8a6b6c6e685be8">L3g4200Config</a>
 </li>
@@ -1058,7 +1068,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Nov 8 2017 10:03:13 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:03:20 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

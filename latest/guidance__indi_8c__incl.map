@@ -1,5 +1,5 @@
 <map id="sw/airborne/firmwares/rotorcraft/guidance/guidance_indi.c" name="sw/airborne/firmwares/rotorcraft/guidance/guidance_indi.c">
-<area shape="rect" id="node3" href="$guidance__indi_8h.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion Come to ICRA2016 to learn more! ..." alt="" coords="746,392,933,433"/>
+<area shape="rect" id="node3" href="$guidance__indi_8h.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion. " alt="" coords="746,392,933,433"/>
 <area shape="rect" id="node14" href="$ins__int_8h.html" title="INS for rotorcrafts combining vertical and horizontal filters. " alt="" coords="320,109,463,151"/>
 <area shape="rect" id="node18" href="$state_8h.html" title="API to get/set the generic vehicle states. " alt="" coords="391,303,458,329"/>
 <area shape="rect" id="node22" href="$sys__time_8h.html" title="Architecture independent timing functions. " alt="" coords="1479,399,1650,426"/>

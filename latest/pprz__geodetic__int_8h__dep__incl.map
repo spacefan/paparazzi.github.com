@@ -31,7 +31,7 @@
 <area shape="rect" id="node13" href="$stabilization__attitude_8c.html" title="Fixed wing horizontal control. " alt="" coords="3984,325,4155,381"/>
 <area shape="rect" id="node14" href="$autopilot__guided_8c.html" title="Autopilot guided mode interface. " alt="" coords="1814,325,1975,381"/>
 <area shape="rect" id="node15" href="$rotorcraft_2autopilot__utils_8c.html" title="Utility functions and includes for autopilots. " alt="" coords="2387,325,2549,381"/>
-<area shape="rect" id="node16" href="$guidance__indi_8c.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion Come to IROS2016 to learn more! ..." alt="" coords="3295,436,3457,492"/>
+<area shape="rect" id="node16" href="$guidance__indi_8c.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion. " alt="" coords="3295,436,3457,492"/>
 <area shape="rect" id="node17" href="$rotorcraft_2main__ap_8c.html" title="Rotorcraft main loop. " alt="" coords="1249,332,1410,373"/>
 <area shape="rect" id="node18" href="$navigation_8c.html" title="Rotorcraft navigation functions. " alt="" coords="1365,443,1531,485"/>
 <area shape="rect" id="node20" href="$rotorcraft_2guidance_2guidance__h_8c.html" title="Horizontal guidance for rotorcrafts. " alt="" coords="4194,436,4355,492"/>

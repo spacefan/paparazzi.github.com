@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -357,7 +357,7 @@ $(document).ready(function(){initNavTree('gps__sirf_8c_source.html','');});
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="gps__sirf_8c.html#add1fe9f06d4094bd6e54df2185fb7fb7">gps_sirf</a>.<a class="code" href="gps__sirf_8h.html#a81bacb9b475cedabbfb667346ea1b0ab">state</a>.<a class="code" href="gps_8h.html#afeffb02bdd18d27a87e96bb77175168f">fix</a> == <a class="code" href="gps_8h.html#ac5e980c8325a29dd79a45ed26af404be">GPS_FIX_3D</a>) {</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    ticks++;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="preprocessor">#if DEBUG_SIRF</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <a class="code" href="kremlib_8h.html#a3cb9f0894fab1c8fbb0753c9c7c2a8d9">printf</a>(<span class="stringliteral">&quot;GPS %i %i %i %i\n&quot;</span>, ticks, (<a class="code" href="sys__time_8h.html#structsys__time">sys_time</a>.<a class="code" href="sys__time_8h.html#a2e86fdabba99a0ac8f6409e0d1e694a3">nb_sec</a> - start_time), ticks2, (<a class="code" href="sys__time_8h.html#structsys__time">sys_time</a>.<a class="code" href="sys__time_8h.html#a2e86fdabba99a0ac8f6409e0d1e694a3">nb_sec</a> - start_time2));</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    printf(<span class="stringliteral">&quot;GPS %i %i %i %i\n&quot;</span>, ticks, (<a class="code" href="sys__time_8h.html#structsys__time">sys_time</a>.<a class="code" href="sys__time_8h.html#a2e86fdabba99a0ac8f6409e0d1e694a3">nb_sec</a> - start_time), ticks2, (<a class="code" href="sys__time_8h.html#structsys__time">sys_time</a>.<a class="code" href="sys__time_8h.html#a2e86fdabba99a0ac8f6409e0d1e694a3">nb_sec</a> - start_time2));</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;  } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="sys__time_8h.html#structsys__time">sys_time</a>.<a class="code" href="sys__time_8h.html#a2e86fdabba99a0ac8f6409e0d1e694a3">nb_sec</a> - <a class="code" href="gps__sirf_8c.html#add1fe9f06d4094bd6e54df2185fb7fb7">gps_sirf</a>.<a class="code" href="gps__sirf_8h.html#a81bacb9b475cedabbfb667346ea1b0ab">state</a>.<a class="code" href="gps_8h.html#a9eb7e10f8a297f62eceb452a534264f2">last_3dfix_time</a> &gt; 10) {</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    start_time = <a class="code" href="sys__time_8h.html#structsys__time">sys_time</a>.<a class="code" href="sys__time_8h.html#a2e86fdabba99a0ac8f6409e0d1e694a3">nb_sec</a>;</div>
@@ -525,7 +525,6 @@ $(document).ready(function(){initNavTree('gps__sirf_8c_source.html','');});
 <div class="ttc" id="gps__sirf_8c_html_ac2775b42952f2dbf9309ba9159734c08"><div class="ttname"><a href="gps__sirf_8c.html#ac2775b42952f2dbf9309ba9159734c08">sirf_msg_2::ch9prn</a></div><div class="ttdeci">uint8_t ch9prn</div><div class="ttdef"><b>Definition:</b> <a href="gps__sirf_8c_source.html#l00065">gps_sirf.c:65</a></div></div>
 <div class="ttc" id="gps_8h_html_a298552f8926fd925f8c94bbeeca1dc5c"><div class="ttname"><a href="gps_8h.html#a298552f8926fd925f8c94bbeeca1dc5c">GpsState::lla_pos</a></div><div class="ttdeci">struct LlaCoor_i lla_pos</div><div class="ttdoc">position in LLA (lat,lon: deg*1e7; alt: mm over ellipsoid) </div><div class="ttdef"><b>Definition:</b> <a href="gps_8h_source.html#l00086">gps.h:86</a></div></div>
 <div class="ttc" id="gps__sirf_8c_html_ae106fb72ae3b3dd8428aa9bd9c8a6972"><div class="ttname"><a href="gps__sirf_8c.html#ae106fb72ae3b3dd8428aa9bd9c8a6972">sirf_msg_41::sat_id</a></div><div class="ttdeci">uint32_t sat_id</div><div class="ttdoc">satellites used in solution. Each satellite corresponds with a bit, e.g. bit 1 ON = SV 1 is used in s...</div><div class="ttdef"><b>Definition:</b> <a href="gps__sirf_8c_source.html#l00085">gps_sirf.c:85</a></div></div>
-<div class="ttc" id="kremlib_8h_html_a3cb9f0894fab1c8fbb0753c9c7c2a8d9"><div class="ttname"><a href="kremlib_8h.html#a3cb9f0894fab1c8fbb0753c9c7c2a8d9">printf</a></div><div class="ttdeci">#define printf</div><div class="ttdef"><b>Definition:</b> <a href="kremlib_8h_source.html#l00242">kremlib.h:242</a></div></div>
 <div class="ttc" id="types_8h_html_aef44329758059c91c76d334e8fc09700"><div class="ttname"><a href="types_8h.html#aef44329758059c91c76d334e8fc09700">int8_t</a></div><div class="ttdeci">signed char int8_t</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00015">types.h:15</a></div></div>
 <div class="ttc" id="gps__sirf_8c_html_a8543013fb4e00742ac1134c35317d905"><div class="ttname"><a href="gps__sirf_8c.html#a8543013fb4e00742ac1134c35317d905">sirf_msg_2::ch12prn</a></div><div class="ttdeci">uint8_t ch12prn</div><div class="ttdef"><b>Definition:</b> <a href="gps__sirf_8c_source.html#l00068">gps_sirf.c:68</a></div></div>
 <div class="ttc" id="gps__sirf_8c_html_a99e4106b362adc09bc68f3037a3db9ec"><div class="ttname"><a href="gps__sirf_8c.html#a99e4106b362adc09bc68f3037a3db9ec">sirf_parse_41</a></div><div class="ttdeci">void sirf_parse_41(void)</div><div class="ttdef"><b>Definition:</b> <a href="gps__sirf_8c_source.html#l00197">gps_sirf.c:197</a></div></div>
@@ -553,7 +552,7 @@ $(document).ready(function(){initNavTree('gps__sirf_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_12d6ec7aac5a4a9b8cee17e35022d7c7.html">subsystems</a></li><li class="navelem"><a class="el" href="dir_8c4cbb881db224ddaf0756e79ed706ce.html">gps</a></li><li class="navelem"><a class="el" href="gps__sirf_8c.html">gps_sirf.c</a></li>
-    <li class="footer">Generated on Wed Nov 8 2017 10:01:50 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:02:00 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

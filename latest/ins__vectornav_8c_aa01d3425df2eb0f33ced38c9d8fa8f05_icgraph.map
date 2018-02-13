@@ -21,7 +21,7 @@
 <area shape="rect" id="node14" href="$stm32_2mcu__periph_2adc__arch_8c.html#a2b815e6730e8723a6d1d06d9ef8f31c0" title="Starts conversions. " alt="" coords="476,259,547,285"/>
 <area shape="rect" id="node16" href="$ahrs__float__dcm__wrapper_8c.html#aacd6b1869f263f90a6f1fbe777a87793" title="accel_cb" alt="" coords="665,335,742,361"/>
 <area shape="rect" id="node17" href="$ahrs__float__dcm__wrapper_8h.html#a18235ffdb70868861d5424fe8c4bafa5" title="ahrs_dcm_register" alt="" coords="807,335,948,361"/>
-<area shape="rect" id="node21" href="$nps__fdm__jsbsim_8cpp.html#a17ec5b69b110d046f9db5b67d2b08779" title="Set JSBsim specific fields that are not used for Gazebo. " alt="" coords="460,411,563,437"/>
+<area shape="rect" id="node21" href="$nps__fdm__jsbsim_8cpp.html#a17ec5b69b110d046f9db5b67d2b08779" title="Initialize actuator dynamics, set unused fields in fdm. " alt="" coords="460,411,563,437"/>
 <area shape="rect" id="node22" href="$nps__main__common_8c.html#a92aad3720fb482042b695d66e633699a" title="nps_main_init" alt="" coords="648,411,759,437"/>
 <area shape="rect" id="node23" href="$nps__main__hitl_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="850,411,905,437"/>
 </map>

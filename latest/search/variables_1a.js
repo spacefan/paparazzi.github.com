@@ -6,6 +6,8 @@ var searchData=
   ['z_5fpos',['z_pos',['../gps__sirf_8c.html#ad9ce23e9de810c5be87ad843418c1ce1',1,'sirf_msg_2']]],
   ['zdot',['zdot',['../vf__extended__float_8h.html#a6b5f21822256d71a3973b26a081fe26f',1,'VffExtended::zdot()'],['../vf__float_8h.html#a985d750a72be66416d761c5863aab331',1,'Vff::zdot()']]],
   ['zdotdot',['zdotdot',['../vf__extended__float_8h.html#a2b123c188ea8f6f2d691eb2d74d6e9a8',1,'VffExtended::zdotdot()'],['../vf__float_8h.html#a1dbc6c9d7873360feb9534f583c60755',1,'Vff::zdotdot()']]],
+  ['zero',['zero',['../dragspeed_8h.html#a45ef91f1226a7389c95668af0cd907f3',1,'dragspeed_t']]],
+  ['zero_5fcalibrated',['zero_calibrated',['../dragspeed_8h.html#a27a5e0068a82c1b43b10f59118a2ff66',1,'dragspeed_t']]],
   ['zerobyte',['ZeroByte',['../VN100_8h.html#a9f78d8190e6812fb9cded7c2672eb13e',1,'VN100_Res_Packet']]],
   ['zerobyte1',['ZeroByte1',['../VN100_8h.html#a9c21d48f2392db817e0820e204269970',1,'VN100_Req_Packet']]],
   ['zerobyte2',['ZeroByte2',['../VN100_8h.html#a1d1544c8b0ad8462030dbfc7e7280846',1,'VN100_Req_Packet']]],

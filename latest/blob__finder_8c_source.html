@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="penguin_icon.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">Paparazzi UAS
-   &#160;<span id="projectnumber">v5.13_devel-72-g62bb3ca-dirty</span>
+   &#160;<span id="projectnumber">v5.13_devel-145-g4e80b97-dirty</span>
    </div>
    <div id="projectbrief">Paparazzi is a free software Unmanned Aircraft System.</div>
   </td>
@@ -265,7 +265,7 @@ $(document).ready(function(){initNavTree('blob__finder_8c_source.html','');});
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  }</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  <span class="keywordflow">if</span> (labels_cnt &gt;= labels_size - 1) {</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <a class="code" href="kremlib_8h.html#a3cb9f0894fab1c8fbb0753c9c7c2a8d9">printf</a>(<span class="stringliteral">&quot;Break did not work: we have %d labels\n&quot;</span>, labels_cnt);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    printf(<span class="stringliteral">&quot;Break did not work: we have %d labels\n&quot;</span>, labels_cnt);</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  }</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  <span class="comment">// Merge connected labels</span></div>
@@ -312,7 +312,6 @@ $(document).ready(function(){initNavTree('blob__finder_8c_source.html','');});
 <div class="ttc" id="blob__finder_8h_html_structimage__label__t"><div class="ttname"><a href="blob__finder_8h.html#structimage__label__t">image_label_t</a></div><div class="ttdef"><b>Definition:</b> <a href="blob__finder_8h_source.html#l00046">blob_finder.h:46</a></div></div>
 <div class="ttc" id="blob__finder_8h_html_aecdaf9e4e79cdea29bc5aa2867332dbd"><div class="ttname"><a href="blob__finder_8h.html#aecdaf9e4e79cdea29bc5aa2867332dbd">image_label_t::y_sum</a></div><div class="ttdeci">uint32_t y_sum</div><div class="ttdef"><b>Definition:</b> <a href="blob__finder_8h_source.html#l00054">blob_finder.h:54</a></div></div>
 <div class="ttc" id="ins__alt__float_8c_html_a9d3f100c4375da4d957dbe599d494905"><div class="ttname"><a href="ins__alt__float_8c.html#a9d3f100c4375da4d957dbe599d494905">p</a></div><div class="ttdeci">static float p[2][2]</div><div class="ttdef"><b>Definition:</b> <a href="ins__alt__float_8c_source.html#l00268">ins_alt_float.c:268</a></div></div>
-<div class="ttc" id="kremlib_8h_html_a3cb9f0894fab1c8fbb0753c9c7c2a8d9"><div class="ttname"><a href="kremlib_8h.html#a3cb9f0894fab1c8fbb0753c9c7c2a8d9">printf</a></div><div class="ttdeci">#define printf</div><div class="ttdef"><b>Definition:</b> <a href="kremlib_8h_source.html#l00242">kremlib.h:242</a></div></div>
 <div class="ttc" id="blob__finder_8c_html_a4394ddcfee7f3a3c1ff870b038b2883b"><div class="ttname"><a href="blob__finder_8c.html#a4394ddcfee7f3a3c1ff870b038b2883b">image_labeling</a></div><div class="ttdeci">void image_labeling(struct image_t *input, struct image_t *output, struct image_filter_t *filters, uint8_t filters_cnt, struct image_label_t *labels, uint16_t *labels_count)</div><div class="ttdef"><b>Definition:</b> <a href="blob__finder_8c_source.html#l00033">blob_finder.c:33</a></div></div>
 <div class="ttc" id="blob__finder_8h_html_abab437292024a0949c95747e44701bb7"><div class="ttname"><a href="blob__finder_8h.html#abab437292024a0949c95747e44701bb7">image_label_t::y_min</a></div><div class="ttdeci">uint16_t y_min</div><div class="ttdef"><b>Definition:</b> <a href="blob__finder_8h_source.html#l00052">blob_finder.h:52</a></div></div>
 <div class="ttc" id="blob__finder_8h_html_a398b4969b250ece6c0e0de2cbb39bf95"><div class="ttname"><a href="blob__finder_8h.html#a398b4969b250ece6c0e0de2cbb39bf95">image_label_t::id</a></div><div class="ttdeci">uint16_t id</div><div class="ttdoc">Blob number. </div><div class="ttdef"><b>Definition:</b> <a href="blob__finder_8h_source.html#l00047">blob_finder.h:47</a></div></div>
@@ -323,7 +322,7 @@ $(document).ready(function(){initNavTree('blob__finder_8c_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_01fcd3835fb4e7d9331b722d86291b65.html">sw</a></li><li class="navelem"><a class="el" href="dir_5e9153041680afc3c016fd52fa730b56.html">airborne</a></li><li class="navelem"><a class="el" href="dir_c2abcdd6ccb39c3582929c0e3f5651c2.html">modules</a></li><li class="navelem"><a class="el" href="dir_304e79c9f5d09ea65a2f55aafb6a6b9d.html">computer_vision</a></li><li class="navelem"><a class="el" href="dir_085e957c53d1527bb97919405ff6f1e3.html">blob</a></li><li class="navelem"><a class="el" href="blob__finder_8c.html">blob_finder.c</a></li>
-    <li class="footer">Generated on Wed Nov 8 2017 10:01:36 for Paparazzi UAS by
+    <li class="footer">Generated on Mon Feb 12 2018 18:01:46 for Paparazzi UAS by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
   </ul>

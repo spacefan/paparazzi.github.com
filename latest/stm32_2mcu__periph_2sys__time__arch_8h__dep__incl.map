@@ -36,7 +36,7 @@
 <area shape="rect" id="node33" href="$fixedwing_2main__ap_8c.html" title="AP ( AutoPilot ) tasks. " alt="" coords="5836,213,5997,255"/>
 <area shape="rect" id="node34" href="$fixedwing_2main__chibios_8c.html" title="sw/airborne/firmwares\l/fixedwing/main_chibios.c" alt="" coords="6021,213,6204,255"/>
 <area shape="rect" id="node35" href="$fixedwing_2main__fbw_8c.html" title="FBW ( FlyByWire ) process. " alt="" coords="6228,213,6389,255"/>
-<area shape="rect" id="node36" href="$guidance__indi_8c.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion Come to IROS2016 to learn more! ..." alt="" coords="6413,206,6575,262"/>
+<area shape="rect" id="node36" href="$guidance__indi_8c.html" title="A guidance mode based on Incremental Nonlinear Dynamic Inversion. " alt="" coords="6413,206,6575,262"/>
 <area shape="rect" id="node37" href="$rotorcraft_2main_8c.html" title="Program main function AP + FBW on single MCU AP or FBW on dual MCU None on SITL. " alt="" coords="6599,213,6760,255"/>
 <area shape="rect" id="node38" href="$rotorcraft_2main__ap_8c.html" title="Rotorcraft main loop. " alt="" coords="6784,213,6945,255"/>
 <area shape="rect" id="node39" href="$rotorcraft_2main__chibios_8c.html" title="sw/airborne/firmwares\l/rotorcraft/main_chibios.c" alt="" coords="6970,213,7154,255"/>
